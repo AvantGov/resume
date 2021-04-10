@@ -1,3 +1,4 @@
+/* Ryan-Mas Reset Implementation for browser + element consistency */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,3 +50,19 @@ Html{
 	font-size: 62.5%;
 }
 
+/* notes for variables until LESS can be installed and used  */
+/* 
+	font-family: 'IBM Plex Sans', sans-serif; -- Regular 400 -- subheaders / section headers
+	font-family: 'Kumbh Sans', sans-serif; -- Bold 700 -- main titles / section headers 
+	font-family: 'Recursive', sans-serif; -- light 300 + regular 400 -- body text
+
+	color theme: 
+	black -- 0B1210
+	washed olive -- 595E4A
+	grey -- 6B7A65
+	green -- 508D6A
+	white -- F9F7E8 -- use for site background
+*/
+
+
+/*  actual CSS code implementation */
