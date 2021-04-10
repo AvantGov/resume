@@ -69,13 +69,31 @@ Html{
 
 /* *APP STYLING* */
 .App {
-	background-color: #F9F7E8;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
+h1 {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 4.0rem;
+	color: #508D6A;
+}
+
+h2 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 1.5rem;
+	line-height: 130%;
+	color: #595E4A;
+}
+
 
 /* *HEADER COMPONENT STYLING* */
 .header {
-	height: 400px;
+	height: max-content;
 	width: 100%;
+	/* border: 2px solid black; */
 }
 
 .header__iconContainer {
@@ -87,7 +105,8 @@ Html{
 	margin-left: 3%;
 	position: absolute;
 	background-color: #FFFFFF;
-	border: 1px solid #808080;
+	border: 1px solid #6B7A65;
+	opacity: 900%;
 	border-radius: 100px;
 	display: flex;
 	align-items: center;
@@ -100,11 +119,13 @@ Html{
 	background-image: url("./assets/alex.jpeg");
 	background-position: center;
 	border-radius: 100px;
+	opacity: 90%;
 }
 
 .header__imgContainer {
 	width: 100%;
 	height: 300px;
+	opacity: 70%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -116,4 +137,83 @@ Html{
 	background-image: url("./assets/inertia/1.jpg");
 	background-position: center 20%;
 	
+}
+
+.header__intro {
+	margin-left: 19%;
+	/* border: 2px solid black; */
+	width: 65%;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.header__intro p {
+	font-family: 'Recursive', sans-serif;
+	line-height: 130%;
+	font-weight: 350;
+}
+
+/* *WORK EXPERIENCE STYLES* */
+.WorkExp {
+	/* border: 2px solid black; */
+	width: 95%;
+	margin: 5% auto;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+
+.WorkExp h1 {
+	margin: 0 auto;
+}
+
+.WorkExp__mainItems {
+	display: flex;
+	justify-content: space-around;
+	margin: 1% auto;
+}
+
+.epicComp {
+	width: 45%;
+	height: 175px;
+	/* border: 2px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.epicComp p {
+	font-family: 'Recursive', sans-serif;
+	line-height: 130%;
+	font-weight: 350;
+}
+
+.epicComp a {
+	font-family: 'Recursive', sans-serif;
+	line-height: 130%;
+	font-weight: 550;
+}
+
+.visaComp {
+	width: 45%;
+	height: 175px;
+	/* border: 2px solid black; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.visaComp p {
+	font-family: 'Recursive', sans-serif;
+	line-height: 130%;
+	font-weight: 350;
+}
+
+.visaComp a {
+	font-family: 'Recursive', sans-serif;
+	line-height: 130%;
+	font-weight: 550;
 }
