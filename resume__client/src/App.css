@@ -217,3 +217,56 @@ h2 {
 	line-height: 130%;
 	font-weight: 550;
 }
+
+
+/* * VIEW MORE PAGES STYLING * */
+
+.ImgContainer__1 {
+	background-image: url("./assets/Cardinal/1.png");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__2 {
+	background-image: url("./assets/Cardinal/2.png");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__3 {
+	background-image: url("./assets/Cardinal/3.png");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__4 {
+	background-image: url("./assets/Cardinal/4.png");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__5 {
+	background-image: url("./assets/Cardinal/5.png");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__6 {
+	background-image: url("./assets/Cardinal/6.gif");
+	height: 300px;
+	width: 100%;
+}
+
+.ImgContainer__7 {
+	background-image: url("./assets/Cardinal/7.png");
+	height: 300px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
