@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 // * image imports for src 
 import one from '../assets/Cardinal/1.png';
@@ -61,9 +62,15 @@ const VisaComp__viewmore = () => {
                         <img src={seven} alt='project presentation slide 7' />
                     </div>
                 </div>
-
             </div>
             
+            <div className='viewmore__return'>
+                    <Link to="/">
+                        <div className='return__button'>
+                            <h2> take me back </h2>
+                        </div>   
+                    </Link>
+            </div>
         </div>
     )
 };
