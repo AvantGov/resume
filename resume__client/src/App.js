@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import WorkExp from "./Components/WorkExp";
 import EpicComp__viewmore from './Components/EpicComp__viewmore';
 import VisaComp__viewmore from './Components/VisaComp__viewmore';
-// import viewmore_banner from './Components/viewmore_banner';
+import Viewmore__banner from './Components/Viewmore__banner';
 
 import { Route } from 'react-router-dom';
 
@@ -17,12 +17,12 @@ function App() {
       </Route>
       
       <Route exact path='/about/epic'>
-        {/* <viewmore_banner /> */}
+        <Viewmore__banner />
         <EpicComp__viewmore />
       </Route>
       
       <Route exact path='/about/visa'>
-        {/* <viewmore_banner /> */}
+        <Viewmore__banner />
         <VisaComp__viewmore />
       </Route>
     </div>

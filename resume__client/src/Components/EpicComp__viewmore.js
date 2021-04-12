@@ -14,26 +14,55 @@ const EpicComp__viewmore = () => {
 
             <div className='viewmore__ownership'>
                 <h1 className='ownership__title'>Ownership</h1>
-                <div className='ownership__container'>
+                <div className='ownership__areaContainer'>
                     <div className='ownContainer__areaContainer'>
-                        <h2 className='areaContainer__title'>Title</h2>
-                        <p className='areaContainer__desc'>i am the descriptio hear me roar</p>
+                        <h2 className='areaContainer__title'>QA Note Triage</h2>
+                        <p className='areaContainer__desc'>Responsible for research and assignment of enhancement priority QA notes to planned development projects for team consideration.</p>
                     </div>
                     
                     <div className='ownContainer__areaContainer'>
-                        <h2 className='areaContainer__title'>Title</h2>
-                        <p className='areaContainer__desc'>i am the descriptio hear me roar</p>
+                        <h2 className='areaContainer__title'>Design Triage</h2>
+                        <p className='areaContainer__desc'>Responsible for assignment of QA perspective project design review to functional area experts across the Cerberus team.</p>
                     </div>
                     
                     <div className='ownContainer__areaContainer'>
-                        <h2 className='areaContainer__title'>Title</h2>
-                        <p className='areaContainer__desc'>i am the descriptio hear me roar</p>
+                        <h2 className='areaContainer__title'>Infosec Education</h2>
+                        <p className='areaContainer__desc'>Core member of internally-focused infosec education group. Owner and coordinator for QA-centric infosec education newsletter.</p>
                     </div>                    
                 </div>
             </div>
 
             <div className='viewmore__technical'>
-                i will be the technical concepts component
+                <h1 className='technical__title'>Technical Expertise</h1>
+                <div className='technical__areaContainer'>
+                    <div className='techContainer__areaContainer'>
+                        <h2 className='areaContainer__title'>Two Factor Authentication</h2>
+                        <p className='areaContainer__desc'>Thorough knowledge of workflow configurations and functional testing of internally-delivered OTP for secondary login authentication and secure contact information, as well as failure case handling for SMTP server-downtime.</p>
+                        <ul className='areaContainer__unlist'>
+                            <li className='unlist__item'>- Lead tester on 2020 user-focused 2FA redesign project.</li>
+                        </ul>
+                    </div>
+                    <div className='techContainer__areaContainer'>
+                        <h2 className='areaContainer__title'>Web Service Branding</h2>
+                        <p className='areaContainer__desc'>Thorough knowledge of client-delivered branding information for CSS customization for MyChart mobile application. </p>
+                        <ul className='areaContainer__unlist'>
+                            <li className='unlist__item'>- Lead tester on 2020 color delivery framework upgrade project. </li>
+                            <li className='unlist__item'>- Working knowledge of web-services branding configurations for server-delivered branding information.</li>
+                        </ul>
+                    </div>
+                    <div className='techContainer__areaContainer'>
+                        <h2 className='areaContainer__title'>Framework Upgrades</h2>
+                        <p className='areaContainer__desc'>Lead tester for jQuery 3.5.1 upgrade and button-alignment CSS infrastructure update; both large-scale regression testing efforts of entire application to assess functional integrity upon upgrade.</p>
+                    </div>    
+                    <div className='techContainer__areaContainer'>
+                        <h2 className='areaContainer__title'>Proxy Access + Activation</h2>
+                        <p className='areaContainer__desc'>Working knowledge of user experience control flow based on provided context objects and relevant data delivered to components based on user access permissions and/or user account access context.</p>
+                        <ul className='areaContainer__unlist'>
+                            <li className='unlist__item'>Delivery of notifications, reminders, and user-experience features to centralized feed of actionable items based on user account context.</li>
+                            <li className='unlist__item'>Account activation workflows completed with tokenized activation codes generated in provider application (Hyperspace)</li>
+                        </ul>
+                    </div>                   
+                </div>
             </div>
 
             <div className='viewmore__return'>
