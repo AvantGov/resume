@@ -5,7 +5,12 @@ const EpicComp__viewmore = () => {
 
     return(
         <div className='viewMore__epic'>
-            i am the view more component
+            <div className='viewmore__intro'>
+                <h1 className='intro__header'>Quality Assurance Manager</h1>
+                <h1 className='intro__header'>@ MyChart, Framework and Interoperability</h1>
+                <h2 className='intro__subheader'>Epic Health Systems, Verona, WI – (May 2020)</h2>
+                <p className='intro__desc'>QA Analyst on MyChart "Cerberus" Framework & Interoperability team. This team takes broad ownership of Account Activation and Two-Factor Authorization, Proxy Access connection, and web-service Branding Customization along side low-level supporting framework upgrades. Core duties include ensuring functional excellence of dataflows between client and intermediary web servers through manual workflow testing and thorough reporting on software quality levels, while following up with RnD channels to source and resolve found issues. </p>
+            </div>
 
 
             <div className='viewmore__return'>
@@ -20,3 +25,4 @@ const EpicComp__viewmore = () => {
 };
 
 export default EpicComp__viewmore;
+
