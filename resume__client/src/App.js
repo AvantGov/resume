@@ -5,6 +5,7 @@ import WorkExp from "./Components/WorkExp";
 import EpicComp__viewmore from './Components/EpicComp__viewmore';
 import VisaComp__viewmore from './Components/VisaComp__viewmore';
 import Viewmore__banner from './Components/Viewmore__banner';
+import Skills__ecomm from './Components/Skills__ecomm';
 
 import { Route } from 'react-router-dom';
 
@@ -25,6 +26,8 @@ function App() {
         <Viewmore__banner />
         <VisaComp__viewmore />
       </Route>
+
+      <Skills__ecomm />
     </div>
   );
 }

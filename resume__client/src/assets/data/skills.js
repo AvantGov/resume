@@ -1,16 +1,18 @@
-const skills__programming = {
-    hello: "the value of value of the programming object"
+const skills = {
+    skills__programming: {
+        hello: "the value of value of the programming object"
+    },
+
+    skills__media: {
+        hello: "the value of the media object"
+    },
+
+    skills__ecomm: {
+        hello: "the value of the ecomm object"
+    }
 }
 
-const skills__media = {
-    hello: "the value of the media object"
-}
-
-const skills__ecomm = {
-    hello: "the value of the ecomm object   "
-}
-
-export { skills__programming, skills__ecomm, skills__media };
+export default skills;
 
 
 // ! data map of object for each skills section 
