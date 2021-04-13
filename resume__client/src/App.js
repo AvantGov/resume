@@ -29,9 +29,9 @@ function App() {
         <VisaComp__viewmore />
       </Route>
 
-      <Skills__ecomm />
+      {/* <Skills__ecomm /> */}
       <Skills__media />
-      <Skills__programming />
+      {/* <Skills__programming /> */}
     </div>
   );
 }
