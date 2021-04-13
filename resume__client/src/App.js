@@ -6,6 +6,8 @@ import EpicComp__viewmore from './Components/EpicComp__viewmore';
 import VisaComp__viewmore from './Components/VisaComp__viewmore';
 import Viewmore__banner from './Components/Viewmore__banner';
 import Skills__ecomm from './Components/Skills__ecomm';
+import Skills__media from './Components/Skills__media';
+import Skills__programming from './Components/Skills__programming';
 
 import { Route } from 'react-router-dom';
 
@@ -28,6 +30,8 @@ function App() {
       </Route>
 
       <Skills__ecomm />
+      <Skills__media />
+      <Skills__programming />
     </div>
   );
 }
