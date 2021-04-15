@@ -26,22 +26,22 @@ const skills = {
             ]
         }, 
         {
-            name: "",
+            name: "HTML, CSS (LESS)",
             rating: 4,
-            description: "",
+            description: "Working knowledge from combined on-job experiences modifying templated websites, and formalized education through Lambda. Developed fully responsive marketing pages utiizing media quereies at responsive breakpoints. In QA role, utilized live CSS modifications to enhance documented suggestions to R&D. ",
             hasLink: true,
-            linkURL: "",
-            linkName: "",
+            linkURL: "https://www.behance.net/gallery/93422201/FreeFromorg-Marketing-Page-Lambda-School-Build-Week",
+            linkName: "FreeFrom.org Marketing Page | Build Sprint",
             hasLib: false,
             lib: null
         },
         {
-            name: "",
-            rating: 4,
-            description: "",
-            hasLink: true,
-            linkURL: "",
-            linkName: "",
+            name: "Python",
+            rating: 3,
+            description: "Completing formal curriculum in foundational computational problem solving with python3 utilizing basic and advanced data structures while calculating and considering computational efficiency of solutions.",
+            hasLink: false,
+            linkURL: null,
+            linkName: null,
             hasLib: false,
             lib: null
         }
@@ -86,14 +86,14 @@ const skills = {
         {
             name: "Helium 10",
             rating: 4,
-            decription: "Managed Amazon product listing success and performed array of analytics-driven reports generated from Helium10 suite of tools. Derived keyword strategies and SEO optimization practice for new listings, as well as wrote key-word-laden production copy for ehanced SEO indexing.",
+            description: "Managed Amazon product listing success and performed array of analytics-driven reports generated from Helium10 suite of tools. Derived keyword strategies and SEO optimization practice for new listings, as well as wrote key-word-laden production copy for ehanced SEO indexing.",
             linkURL: null,
             linkName: null
         },
         {
             name: "Microsoft Excel",
             rating: 5,
-            decription: "Extending project-reporting and expirament-monitoring skills gained during high-school with a formal education in analytical decision making for marketing application, utilized excel to drive  keyword strategy and reporting projects by writing rules and generating pivot tables for data insights. Additional experience modifying and writing macros for product information sheets used to interface with Amazon listings backend portal.",
+            description: "Extending project-reporting and expirament-monitoring skills gained during high-school with a formal education in analytical decision making for marketing application, utilized excel to drive  keyword strategy and reporting projects by writing rules and generating pivot tables for data insights. Additional experience modifying and writing macros for product information sheets used to interface with Amazon listings backend portal.",
             linkURL: "https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard",
             linkName: "Cardinal Commerce: Reporting Dashboard"
         }
@@ -143,7 +143,7 @@ export default skills;
 //     TOOL: {
 //         name: "",
 //         rating: 4,
-//         decription: "",
+//         description: "",
 //         linkURL: "",
 //         linkName: ""
 //     }
