@@ -5,6 +5,7 @@ import WorkExp from "./Components/WorkExp";
 import EpicComp__viewmore from './Components/EpicComp__viewmore';
 import VisaComp__viewmore from './Components/VisaComp__viewmore';
 import Viewmore__banner from './Components/Viewmore__banner';
+import SkillsHeader from './Components/SkillsHeader';
 import Skills__Ecomm from './Components/Skills__Ecomm';
 import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
@@ -14,7 +15,7 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">    
-      <Route exact path='/'>
+      <Route path='/'>
         <Header />
         <WorkExp />
       </Route>
@@ -29,9 +30,21 @@ function App() {
         <VisaComp__viewmore />
       </Route>
 
-      <Skills__Ecomm />
-      <Skills__Media />
-      <Skills__Programming />
+
+      <SkillsHeader />
+      <div className='App__skillsViewer'>
+        <Route exact path='/show/programming'>
+          <Skills__Programming />
+        </Route>
+        
+        <Route exact path='/show/media'>
+          <Skills__Media />
+        </Route>
+        
+        <Route exact path='/show/ecomm'>
+          <Skills__Ecomm />
+        </Route>
+      </div>
     </div>
   );
 }
