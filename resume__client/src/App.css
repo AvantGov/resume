@@ -451,3 +451,11 @@ h2 {
 }
 
 
+/*  * WELCOME SCREEN STYLING * */
+
+.welcome {
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  background-image: url("./assets/DIY/HLposter.jpg");
+}

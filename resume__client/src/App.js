@@ -9,12 +9,17 @@ import SkillsHeader from './Components/SkillsHeader';
 import Skills__Ecomm from './Components/Skills__Ecomm';
 import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
+import Welcome from './Components/Welcome';
 
 import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">    
+    <div className="App">  
+      <Route exact path='/'>
+        <Welcome />
+      </Route>
+
       <Route exact path='/about'>
         <Header />
         <WorkExp />
