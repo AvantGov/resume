@@ -1,4 +1,7 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
+//  TODO need to figure out how to best support showing the homepage elements while showing the different view more components 
+//  probably should be it's own component on the homepage
 
 const SkillsHeader = () => {
 

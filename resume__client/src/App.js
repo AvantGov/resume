@@ -15,7 +15,7 @@ import { Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">    
-      <Route path='/'>
+      <Route exact path='/about'>
         <Header />
         <WorkExp />
       </Route>
@@ -25,23 +25,26 @@ function App() {
         <EpicComp__viewmore />
       </Route>
       
+
       <Route exact path='/about/visa'>
         <Viewmore__banner />
         <VisaComp__viewmore />
       </Route>
 
+      <Route exact path="/about">
+        <SkillsHeader />
+      </Route>
 
-      <SkillsHeader />
       <div className='App__skillsViewer'>
-        <Route exact path='/show/programming'>
+        <Route exact path='/about/programming'>
           <Skills__Programming />
         </Route>
         
-        <Route exact path='/show/media'>
+        <Route exact path='/about/media'>
           <Skills__Media />
         </Route>
         
-        <Route exact path='/show/ecomm'>
+        <Route exact path='/about/ecomm'>
           <Skills__Ecomm />
         </Route>
       </div>
