@@ -1,23 +1,32 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-//  TODO need to figure out how to best support showing the homepage elements while showing the different view more components 
-//  probably should be it's own component on the homepage
 
-const SkillsHeader = () => {
+const SkillsHeader = (props) => {
+
+    // console.log("skills header props:", props)
 
     return(
         <div className='skillsHeader'>
             <h1 className='skillsHeader__title'>Technical and Creative Skills</h1>
             <div className="skillsHeader__areaContainer">
-                <div className='areaContainer__button'>
-                    <span className='button__text'>PROGRAMMING</span>
+                
+                {/* <Link className='areaContainer__Link' to='/about/programming'> */}
+                <div className='areaContainer__button' onClick={() => {props.props.prog(true)}}>
+                    <h2 className='button__text'>PROGRAMMING</h2>
                 </div>
-                <div className='areaContainer__button'>
-                    <span className='button__text'>DIGITAL MEDIA</span>
-                </div>            
-                <div className='areaContainer__button'>
-                    <span className='button__text'>eCOMMERCE</span>
+                {/* </Link> */}
+                
+                {/* <Link className='areaContainer__Link' to='/about/media'> */}
+                <div className='areaContainer__button' onClick={() => {props.props.media(true)}}>
+                    <h2 className='button__text'>DIGITAL MEDIA</h2>
+                </div> 
+                {/* </Link>            */}
+                
+                {/* <Link className='areaContainer__Link' to='/about/ecomm'> */}
+                <div className='areaContainer__button' onClick={() => {props.props.ecomm(true)}}>
+                    <h2 className='button__text'>eCOMMERCE</h2>
                 </div>
+                {/* </Link> */}
+
             </div>
         </div>
     )

@@ -11,3 +11,13 @@ ENHANCEMENTS:
 - add make viewmore pages just pop ups instead, unless on oa mobile device then they will be shown as other pages. 
 
 - figure out the issue with the user not being returned to the top of the page / find a way to force teh user back to the top of the page without forcing a reload of the page. 
+
+
+https://codedaily.io/tutorials/Create-a-Modal-Route-with-React-Router
+
+use these code exmaples to build out pop up displays for things 
+- using the history object to push to the end of the URL to display a component called a modal?? 
+
+
+
+- add a counter to the deployment that just counts how many people have been there. this might be a good thing to do with a data base? setting up a super simple one that acts whenever someoene is going to the homepage. 

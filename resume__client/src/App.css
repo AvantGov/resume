@@ -297,6 +297,152 @@ h2 {
   font-weight: 550;
 }
 
+/*  * VIEW MORE PAGES BANNER STYLING * */
+.viewmore__banner {
+  background-image: url("./assets/inertia/1.jpg");
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 90%;
+}
+
+.viewmore__banner div {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.titleContainer__title {
+  padding-left: 2%;
+}
+
+.button__text {
+  text-decoration: none;
+}
+
+.viewMore__epic div h1 {
+  font-size: 2.5rem;
+}
+
+
+/*  * WELCOME SCREEN STYLING * */
+
+.welcome {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/inertia/1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__entryButton {
+  border: 1px solid #595E4A;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.welcome__entryButton:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.welcome__entryButton:hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.welcome__Link {
+  text-decoration: none;
+}
+
+/*  * SKILLS HEADER STYLING * */
+
+.skillsHeader {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.skillsHeader__areaContainer {
+  /* border: 2px solid blue; */
+  margin-top: 1%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.areaContainer__button {
+  border: 1px solid #595E4A;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.areaContainer__button:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.areaContainer__button:hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.areaContainer__Link {
+  text-decoration: none;
+}
+
+.App__skillsViewer {
+  height: 80vh;
+  width: 100%;
+  border: 2px solid red;
+}
+
+/* * POP UP STYLING * */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+
+}
+
+.inner__closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+
 /* * VIEW MORE PAGES STYLING * */
 
 .project__ImgContainer {
@@ -358,6 +504,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 
 .viewMore__intro div {
@@ -422,68 +569,7 @@ h2 {
   opacity: 70%;
 }
 
-/*  * VIEW MORE PAGES BANNER STYLING * */
-.viewmore__banner {
-  background-image: url("./assets/inertia/1.jpg");
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  opacity: 90%;
-}
-
-.viewmore__banner div {
-  display: flex;
-  align-items: center;
-  width: 95%;
-}
-
-.titleContainer__title {
-  padding-left: 2%;
-}
-
-.button__text {
+.return__Link {
   text-decoration: none;
-}
+} 
 
-.viewMore__epic div h1 {
-  font-size: 2.5rem;
-}
-
-
-/*  * WELCOME SCREEN STYLING * */
-
-.welcome {
-  height: 50vw;
-  width: 100%;
-  background-image: url("./assets/inertia/1.jpg");
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.welcome__entryButton {
-  border: 1px solid #595E4A;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10%;
-}
-
-.welcome__entryButton:hover {
-  background-color: #508D6A;
-  border: 2px solid white;
-}
-
-.welcome__entryButton:hover h2 {
-  color: white;
-  font-weight: 600;
-}
-
-.welcome__Link {
-  text-decoration: none;
-}

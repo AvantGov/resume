@@ -65,7 +65,7 @@ const VisaComp__viewmore = () => {
             </div>
             
             <div className='viewmore__return'>
-                    <Link to="/">
+                    <Link className='return__Link' to="/about">
                         <div className='return__button'>
                             <h2> take me back </h2>
                         </div>   

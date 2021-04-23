@@ -11,9 +11,23 @@ import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
 import Welcome from './Components/Welcome';
 
+import Popup from './Components/framework/popup'
+
 import { Route } from 'react-router-dom';
+import { useState } from 'react'
 
 function App() {
+  
+  const [showProgramming, setShowProgramming] = useState(false);
+  const [showMedia, setShowMedia ] = useState(false);
+  const [showEcomm, setShowEcomm ] = useState(false);
+  
+  const skills__controller = {
+    prog: setShowProgramming,
+    media: setShowMedia,
+    ecomm: setShowEcomm
+  }
+
   return (
     <div className="App">  
       <Route exact path='/'>
@@ -22,6 +36,25 @@ function App() {
 
       <Route exact path='/about'>
         <Header />
+      </Route>
+
+      <Route exact path="/about">
+        <SkillsHeader props={skills__controller} />
+      </Route>
+
+      <Popup trigger={showProgramming} setTrigger={setShowProgramming} >
+        <Skills__Programming />
+      </Popup>
+
+      <Popup trigger={showMedia} setTrigger={setShowMedia}>
+          <Skills__Media />
+      </Popup>      
+      
+      <Popup trigger={showEcomm} setTrigger={setShowEcomm}>
+          <Skills__Ecomm />
+      </Popup>
+
+      <Route exact path='/about'>
         <WorkExp />
       </Route>
       
@@ -36,23 +69,6 @@ function App() {
         <VisaComp__viewmore />
       </Route>
 
-      <Route exact path="/about">
-        <SkillsHeader />
-      </Route>
-
-      <div className='App__skillsViewer'>
-        <Route exact path='/about/programming'>
-          <Skills__Programming />
-        </Route>
-        
-        <Route exact path='/about/media'>
-          <Skills__Media />
-        </Route>
-        
-        <Route exact path='/about/ecomm'>
-          <Skills__Ecomm />
-        </Route>
-      </div>
     </div>
   );
 }

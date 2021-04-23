@@ -3,7 +3,7 @@ import skills from '../assets/data/skills';
 
 const Skills__Media = () => {
 
-    console.log(skills.skills__media)
+    // console.log(skills.skills__media)
     return(
         <div className='viewmore__media'>
             {skills.skills__media.map((item) => {
