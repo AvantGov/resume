@@ -454,8 +454,36 @@ h2 {
 /*  * WELCOME SCREEN STYLING * */
 
 .welcome {
-  height: 100%;
+  height: 50vw;
   width: 100%;
-  border: 2px solid black;
-  background-image: url("./assets/DIY/HLposter.jpg");
+  background-image: url("./assets/inertia/1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__entryButton {
+  border: 1px solid #595E4A;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.welcome__entryButton:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.welcome__entryButton:hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.welcome__Link {
+  text-decoration: none;
 }

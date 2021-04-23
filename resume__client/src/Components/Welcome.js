@@ -5,9 +5,9 @@ const Welcome = () => {
 
     return(
         <div className='welcome'>
-            <h1 className='welcome__title'>thank you for visiting!</h1>
+            <h1 className='welcome__title'>thank you for visiting</h1>
 
-            <Link to='/about'>
+            <Link className="welcome__Link" to='/about'>
                 <div className='welcome__entryButton'>
                     <h2 className='entryButton__text'>Step Inside</h2>
                 </div>
