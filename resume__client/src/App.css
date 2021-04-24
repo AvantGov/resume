@@ -641,5 +641,16 @@ h2 {
   height: 80vh;
 }
 
-/* * STYLING TO SUPPORT THE IMAGE SLIDESHOW ON VISA VIEW MORE PAGE * */
+.project__container {
+  border: 2px solid green;
+  width: 95%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
 
+}
+
+.img__prj {
+  max-width: 100%;
+  max-height: 100%; 
+}

@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Slider from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+
 
 // * image imports for src 
 import one from '../assets/Cardinal/1.png';
@@ -10,9 +13,27 @@ import five from '../assets/Cardinal/5.png';
 import six from '../assets/Cardinal/6.gif';
 import seven from '../assets/Cardinal/7.png';
 
-// slider parent import
 
 const VisaComp__viewmore = () => {
+    
+    // const slideImages = [ 
+    //     "../assets/Cardinal/1.png",
+    //     "../assets/Cardinal/2.png",
+    //     "../assets/Cardinal/3.png",
+    //     "../assets/Cardinal/4.png",
+    //     "../assets/Cardinal/5.png",
+    //     "../assets/Cardinal/6.gif",
+    //     "../assets/Cardinal/7.png"
+    // ];
+
+    const properties = {
+        duration: 5000,
+        transitionDuration: 500,
+        infinite: true,
+        indicators: true,
+        arrows: true
+    }
+
 
     return(
         <div className='viewMore__visa'>
@@ -39,14 +60,13 @@ const VisaComp__viewmore = () => {
             <div className='viewMore__project'>
                 <h1 className='project__title'>Reporting Dashboard Internship Project</h1>
                 <div className='project__imgContainer'>
-                    {/* TODO: add aria label text from transcribed slides for screen reader */}
-                    <img src={one} alt='project presentation slide 1' />
-                    <img src={two} alt='project presentation slide 2' />
-                    <img src={three} alt='project presentation slide 3' />
-                    <img src={four} alt='project presentation slide 4' />
-                    <img src={five} alt='project presentation slide 5' />
-                    <img src={six} alt='project presentation slide 6' />
-                    <img src={seven} alt='project presentation slide 7' />
+                        <img className='img__prj' src={one} alt='project slide'/>
+                        <img className='img__prj' src={two}  alt='project slide'/>
+                        <img className='img__prj' src={three} alt='project slide'/>
+                        <img className='img__prj' src={four}  alt='project slide'/>
+                        <img className='img__prj' src={five}  alt='project slide'/>
+                        <img className='img__prj' src={six}  alt='project slide'/>
+                        <img className='img__prj' src={seven} alt='project slide'/>
                 </div>
             </div>
             
