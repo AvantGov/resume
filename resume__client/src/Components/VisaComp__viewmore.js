@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 // * image imports for src 
 import one from '../assets/Cardinal/1.png';
@@ -9,6 +9,8 @@ import four from '../assets/Cardinal/4.png';
 import five from '../assets/Cardinal/5.png';
 import six from '../assets/Cardinal/6.gif';
 import seven from '../assets/Cardinal/7.png';
+
+// slider parent import
 
 const VisaComp__viewmore = () => {
 
@@ -37,33 +39,14 @@ const VisaComp__viewmore = () => {
             <div className='viewMore__project'>
                 <h1 className='project__title'>Reporting Dashboard Internship Project</h1>
                 <div className='project__imgContainer'>
-                    <div className='imgContainer'>
-                        <img src={one} alt='project presentation slide 1' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={two} alt='project presentation slide 2' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={three} alt='project presentation slide 3' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={four} alt='project presentation slide 4' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={five} alt='project presentation slide 5' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={six} alt='project presentation slide 6' />
-                    </div>
-
-                    <div className='imgContainer'>
-                        <img src={seven} alt='project presentation slide 7' />
-                    </div>
+                    {/* TODO: add aria label text from transcribed slides for screen reader */}
+                    <img src={one} alt='project presentation slide 1' />
+                    <img src={two} alt='project presentation slide 2' />
+                    <img src={three} alt='project presentation slide 3' />
+                    <img src={four} alt='project presentation slide 4' />
+                    <img src={five} alt='project presentation slide 5' />
+                    <img src={six} alt='project presentation slide 6' />
+                    <img src={seven} alt='project presentation slide 7' />
                 </div>
             </div>
             
