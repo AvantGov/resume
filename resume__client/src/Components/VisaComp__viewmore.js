@@ -33,34 +33,35 @@ const VisaComp__viewmore = () => {
                     </ul>
                 </div>
             </div>
+
             <div className='viewMore__project'>
                 <h1 className='project__title'>Reporting Dashboard Internship Project</h1>
-                <div className='project__ImgContainer'>
-                    <div className='ImgContainer__1'>
+                <div className='project__imgContainer'>
+                    <div className='imgContainer'>
                         <img src={one} alt='project presentation slide 1' />
                     </div>
 
-                    <div className='ImgContainer__2'>
+                    <div className='imgContainer'>
                         <img src={two} alt='project presentation slide 2' />
                     </div>
 
-                    <div className='ImgContainer__3'>
+                    <div className='imgContainer'>
                         <img src={three} alt='project presentation slide 3' />
                     </div>
 
-                    <div className='ImgContainer__4'>
+                    <div className='imgContainer'>
                         <img src={four} alt='project presentation slide 4' />
                     </div>
 
-                    <div className='ImgContainer__5'>
+                    <div className='imgContainer'>
                         <img src={five} alt='project presentation slide 5' />
                     </div>
 
-                    <div className='ImgContainer__6'>
+                    <div className='imgContainer'>
                         <img src={six} alt='project presentation slide 6' />
                     </div>
 
-                    <div className='ImgContainer__7'>
+                    <div className='imgContainer'>
                         <img src={seven} alt='project presentation slide 7' />
                     </div>
                 </div>
