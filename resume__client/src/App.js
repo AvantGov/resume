@@ -10,6 +10,7 @@ import Skills__Ecomm from './Components/Skills__Ecomm';
 import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
 import Welcome from './Components/Welcome';
+import JobsHeader from './Components/JobsHeader';
 
 import Popup from './Components/framework/popup'
 
@@ -67,6 +68,10 @@ function App() {
       <Route exact path='/about/visa'>
         <Viewmore__banner />
         <VisaComp__viewmore />
+      </Route>
+
+      <Route exact path ='/about'>
+        <JobsHeader />
       </Route>
 
     </div>
