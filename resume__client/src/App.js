@@ -13,6 +13,7 @@ import Welcome from './Components/Welcome';
 import JobsHeader from './Components/JobsHeader';
 import Education from './Components/Education'
 import Footer from './Components/Footer';
+import TM from './Components/TM';
 
 
 
@@ -85,6 +86,11 @@ function App() {
       <Route exact path='/about'>
         <Footer />
       </Route>
+
+      <Route exact path='/about'>
+        <TM />
+      </Route>
+
     </div>
   );
 }

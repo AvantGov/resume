@@ -822,15 +822,98 @@ h2 {
 
 /*  *STYLING SUPPORT FOR CONTACT AND FOOTER SECTIONS* */
 .Footer {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  border-top: 1px dashed #508d6a;
   height: 30vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+}
+
+.Contact {
+  /* border: 2px solid blue; */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact__header {
+  padding-left: 5%;
+  font-weight: 700;
+}
+
+.Contact__frame {
+  padding-left: 10%;
+}
+
+.frame__unlist li {
+  font-weight: 400;
+}
+
+.unlist__item a {
+  text-decoration: none;
+}
+
+.SiteFooter {
+  /* border: 2px solid green; */
+  width: 80%;
+  height: 100%;
+  background-color: #508D6A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SiteFooter__header {
+  color: white;
+  font-size: 2.5rem;
+  padding-left: 2%;
+}
+
+.SiteFooter__Link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
 
 }
 
+.SiteFooter__unlist li {
+  padding-left: 5%;
+}
+
+.SiteFooter__unlist li:hover {
+  padding-left: 7.5%;
+}
+
+
+.unlist__item:hover {
+  font-weight: 500;
+}
+
+.frame__unlist li:hover {
+  padding-left: 7.5%;
+}
+
+/* * TRADEMARK STYLING SUPPORT * */
+
+.Trademark {
+  border-top: 1px dashed #508d6a;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Trademark p {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 2.75rem;
+  color: #508d6a;
+  font-weight: 500;
+}
 
 
 /* notes for variables until LESS can be installed and used  */
@@ -838,8 +921,9 @@ h2 {
 	font-family: 'IBM Plex Sans', sans-serif; -- Regular 400 -- subheaders / section headers
 	font-family: 'Kumbh Sans', sans-serif; -- Bold 700 -- main titles / section headers 
 	font-family: 'Recursive', sans-serif; -- light 300 + regular 400 -- body text
-
-	color theme: 
+  font-family: 'Libre Barcode 39 Text', cursive; -- logo TM
+	
+  color theme: 
 	black -- 0B1210
 	washed olive -- 595E4A
 	grey -- 6B7A65

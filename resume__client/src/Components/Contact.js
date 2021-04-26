@@ -11,10 +11,10 @@ const Contact = () => {
                 <ul className="frame__unlist">
                     <li className='unlist__item'>avantgov@protonmail.com</li>
                     <li className='unlist__item'>
-                        <a href='https://www.behance.net/AlexCouts' target='_blank' className='item__link'>Behance</a>
+                        <a href='https://www.behance.net/AlexCouts' target='_blank' rel="noreferrer" className='item__link'>Behance</a>
                     </li>
                     <li className='unlist__item'>
-                        <a href='https://github.com/AvantGov' target='_blank' className='item__link'>Github</a>
+                        <a href='https://github.com/AvantGov' target='_blank' rel="noreferrer" className='item__link'>Github</a>
                     </li>
                 </ul>
             </div>
