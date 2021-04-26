@@ -12,6 +12,7 @@ import Skills__Programming from './Components/Skills__Programming';
 import Welcome from './Components/Welcome';
 import JobsHeader from './Components/JobsHeader';
 import Education from './Components/Education'
+import Footer from './Components/Footer';
 
 
 
@@ -81,6 +82,9 @@ function App() {
         <Education />
       </Route>
 
+      <Route exact path='/about'>
+        <Footer />
+      </Route>
     </div>
   );
 }
