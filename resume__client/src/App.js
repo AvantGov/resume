@@ -11,6 +11,9 @@ import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
 import Welcome from './Components/Welcome';
 import JobsHeader from './Components/JobsHeader';
+import Education from './Components/Education'
+
+
 
 import Popup from './Components/framework/popup'
 
@@ -72,6 +75,10 @@ function App() {
 
       <Route exact path ='/about'>
         <JobsHeader />
+      </Route>
+
+      <Route exact path='/about'>
+        <Education />
       </Route>
 
     </div>

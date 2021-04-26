@@ -682,3 +682,158 @@ h2 {
   max-width: 100%;
   max-height: 100%; 
 }
+
+/*  * STYLING SUPPORT FOR EDUCATION SECTIONS * */
+.Education {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Education__contentFrame {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* * corrects for inheretance of the parent title  */
+  text-align: left;
+  /*  */
+}
+
+.EduMrkt {
+  /* border: 2px solid green; */
+  height: 95%;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.EduMrkt__subheader {
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+
+.descFrame__desc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  line-height: 135%;
+}
+
+.EduMrkt__descFrame {
+  width: 50%;
+
+}
+
+.courseFrame__title {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;  
+}
+
+.minorFrame__title {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.minorFrame__minor {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.EduMrkt__contentFrame {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentFrame__rule {
+  border: 1px solid black;
+  opacity: 30%;
+  height: 70%;
+  width: 1px;
+}
+
+.EduMrkt__minorFrame {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35%;
+  width: 90%;
+}
+
+.minorFrame__minorDesc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 200;
+  line-height: 135%;
+}
+
+/* * PROGRAMMING STYLING * */
+
+
+.EduProg {
+  /* border: 2px solid green; */
+  height: 45%;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.EduProg__subheader {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.EduProg__descFrame {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.descFrame__rule {
+  border: 3px solid black;
+  opacity: 30%;
+  width: 1px;
+  height: 90%;
+}
+
+.descFrame__progDesc {
+  width: 50%;
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  line-height: 135%;
+}
+
+.Education__rule {
+  border: 2px solid black;
+  opacity: 30%;
+  width: 2px;
+  height: 90%;
+}
+
+
+
+
+
+/* notes for variables until LESS can be installed and used  */
+/* 
+	font-family: 'IBM Plex Sans', sans-serif; -- Regular 400 -- subheaders / section headers
+	font-family: 'Kumbh Sans', sans-serif; -- Bold 700 -- main titles / section headers 
+	font-family: 'Recursive', sans-serif; -- light 300 + regular 400 -- body text
+
+	color theme: 
+	black -- 0B1210
+	washed olive -- 595E4A
+	grey -- 6B7A65
+	green -- 508D6A
+	white -- F9F7E8 -- use for site background
+*/
