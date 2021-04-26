@@ -4,7 +4,7 @@ const TM = () => {
 
     return(
         <div className='Trademark'>
-            <p className="Trademark__text">AN AVANTGOV PRODUCT</p>
+            <p className="Trademark__text">AVANTGOV | PROCESS + PRODUCT</p>
         </div>
     )
 };

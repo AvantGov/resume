@@ -11,6 +11,8 @@ import Skills__Media from './Components/Skills__Media';
 import Skills__Programming from './Components/Skills__Programming';
 import Welcome from './Components/Welcome';
 import JobsHeader from './Components/JobsHeader';
+import EcommJobs from './Components/EcommJobs';
+import EntertainJobs from './Components/EntertainJobs';
 import Education from './Components/Education'
 import Footer from './Components/Footer';
 import TM from './Components/TM';
@@ -27,11 +29,18 @@ function App() {
   const [showProgramming, setShowProgramming] = useState(false);
   const [showMedia, setShowMedia ] = useState(false);
   const [showEcomm, setShowEcomm ] = useState(false);
+  const [showEcommExp, setShowEcommExp] = useState(false);
+  const [showEntertain, setShowEntertain] = useState(false);
   
   const skills__controller = {
     prog: setShowProgramming,
     media: setShowMedia,
-    ecomm: setShowEcomm
+    ecomm: setShowEcomm,
+  }
+
+  const jobs__controller = {
+    ecommExp: setShowEcommExp,
+    entertain: setShowEntertain
   }
 
   return (
@@ -60,6 +69,7 @@ function App() {
           <Skills__Ecomm />
       </Popup>
 
+
       <Route exact path='/about'>
         <WorkExp />
       </Route>
@@ -76,8 +86,16 @@ function App() {
       </Route>
 
       <Route exact path ='/about'>
-        <JobsHeader />
+        <JobsHeader props={jobs__controller}/>
       </Route>
+
+      <Popup trigger={showEcommExp} setTrigger={setShowEcommExp}>
+        <EcommJobs />
+      </Popup>
+      
+      <Popup trigger={showEntertain} setTrigger={setShowEntertain}>
+        <EntertainJobs />
+      </Popup>
 
       <Route exact path='/about'>
         <Education />

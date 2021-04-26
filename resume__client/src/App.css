@@ -816,7 +816,7 @@ h2 {
 .Education__rule {
   border: 2px solid black;
   opacity: 30%;
-  width: 2px;
+  width: 1px;
   height: 90%;
 }
 
@@ -914,6 +914,50 @@ h2 {
   color: #508d6a;
   font-weight: 500;
 }
+
+/* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
+.EcommJobs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.EcommJobs__rule {
+  width: 1px;
+  height: 300px;
+  border: 2px solid black;
+  opacity: 30%;
+}
+
+.EcommJobs__jobFrame {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobFrame__header {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+.jobFrame__subheader {
+  font-size: 1.2rem;
+}
+
+.jobFrame__unlist {
+  padding-left: 3%;
+}
+
+.jobFrame__unlist li {
+  padding-top: 1%;
+}
+
+.item__unlist {
+  padding-left: 7.5%;
+}
+
 
 
 /* notes for variables until LESS can be installed and used  */

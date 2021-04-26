@@ -26,15 +26,6 @@ const VisaComp__viewmore = () => {
     //     "../assets/Cardinal/7.png"
     // ];
 
-    const properties = {
-        duration: 5000,
-        transitionDuration: 500,
-        infinite: true,
-        indicators: true,
-        arrows: true
-    }
-
-
     return(
         <div className='viewMore__visa'>
             <div className='viewMore__intro'>
