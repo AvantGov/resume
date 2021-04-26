@@ -915,6 +915,23 @@ h2 {
   font-weight: 500;
 }
 
+/*  *SOME GENERAL POP UP FRAMEWORK STYLINF SUPPORT* */
+.inner__closeBtn {
+  border-radius: 25px;
+  color: #508d6a;
+  background-color: #ffffff;
+  border: 2px solid #508d6a;
+}
+
+.inner__closeBtn:hover {
+  color: #ffffff;
+  background-color: #508d6a;
+  border: 2px solid #595E4A;
+}
+
+
+
+
 /* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
 .EcommJobs {
   display: flex;
