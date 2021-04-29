@@ -329,7 +329,7 @@ h2 {
 /*  * WELCOME SCREEN STYLING * */
 
 .welcome {
-  height: 100vh;
+  height: 86vh;
   width: 100%;
   background-image: url("./assets/inertia/1.jpg");
   display: flex;
@@ -541,6 +541,15 @@ h2 {
 }
 
 .viewmore__return {
+  height: 60px;
+  width: 100%;
+  background-color: #508D6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewmore__returnEpic {
   margin-top: 7%;
   height: 60px;
   width: 100%;
@@ -579,6 +588,34 @@ h2 {
   text-decoration: none;
 } 
 
+.viewMore__comingSoon {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  background-color: #6b7a65;
+}
+
+.viewMore__comingSoon h1 {
+  color: white;
+}
+
+.viewMore__comingSoon a {
+  text-decoration: none;
+}
+
+.viewMore__comingSoon h1:hover {
+  text-decoration: underline;
+}
+
+.viewMore__comingSoon p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
 
 /*  * EPIC VIEW MORE STYLES * */
 .viewMore__epic {
@@ -778,8 +815,6 @@ h2 {
 }
 
 /* * PROGRAMMING STYLING * */
-
-
 .EduProg {
   /* border: 2px solid green; */
   height: 45%;
@@ -824,12 +859,13 @@ h2 {
 .Footer {
   /* border: 2px solid red; */
   border-top: 1px dashed #508d6a;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 
 .Contact {
   /* border: 2px solid blue; */
@@ -972,6 +1008,121 @@ h2 {
   padding-left: 7.5%;
 }
 
+/* *STYLING FOR THE NOTIFICATION BANNER* */
+.NotifBanner {
+  height: 14vh;
+  width: 100%;
+  background-color: #508D6A;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.NotifBanner__message {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.NotifBanner a {
+  /* border: 2px solid red; */
+  text-decoration: underline;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-left: .5%;
+  /* this looks dumb but it's needed to keep the link on one line */
+  width: 20%;
+}
+
+.NotifBanner a:hover {
+  text-decoration: underline;
+}
+
+
+/* *POP UP INFOMRATION STYLING FOR SKILLS* */
+.viewmore__programming {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container__libContainer {
+  height: 55%;
+  /* border: 2px solid red; */
+
+}
+
+.programming__container p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.libContainer__header {
+  font-family: 'Kumbh Sans', sans-serif; 
+
+}
+
+.viewmore__media {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.viewmore__media p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.container__linkName {
+  margin-top: 1%;
+}
+
+.container__desc {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.viewmore__ecomm {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.viewmore__ecomm p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+  margin-top: 1%;
+}
+
+.EntertainJobs {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.EntertainJobs a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.EntertainJobs a:hover {
+  text-decoration: underline;
+}
+
+.EntertainJobs p {
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+}
 
 
 
@@ -989,3 +1140,4 @@ h2 {
 	green -- 508D6A
 	white -- F9F7E8 -- use for site background
 */
+

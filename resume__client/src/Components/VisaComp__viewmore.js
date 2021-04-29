@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 
 
-// * image imports for src 
-import one from '../assets/Cardinal/1.png';
-import two from '../assets/Cardinal/2.png';
-import three from '../assets/Cardinal/3.png';
-import four from '../assets/Cardinal/4.png';
-import five from '../assets/Cardinal/5.png';
-import six from '../assets/Cardinal/6.gif';
-import seven from '../assets/Cardinal/7.png';
+// // * image imports for src 
+// import one from '../assets/Cardinal/1.png';
+// import two from '../assets/Cardinal/2.png';
+// import three from '../assets/Cardinal/3.png';
+// import four from '../assets/Cardinal/4.png';
+// import five from '../assets/Cardinal/5.png';
+// import six from '../assets/Cardinal/6.gif';
+// import seven from '../assets/Cardinal/7.png';
 
 
 const VisaComp__viewmore = () => {
@@ -48,7 +48,7 @@ const VisaComp__viewmore = () => {
                 </div>
             </div>
 
-            <div className='viewMore__project'>
+            {/* <div className='viewMore__project'>
                 <h1 className='project__title'>Reporting Dashboard Internship Project</h1>
                 <div className='project__imgContainer'>
                         <img className='img__prj' src={one} alt='project slide'/>
@@ -59,6 +59,14 @@ const VisaComp__viewmore = () => {
                         <img className='img__prj' src={six}  alt='project slide'/>
                         <img className='img__prj' src={seven} alt='project slide'/>
                 </div>
+            </div> */}
+
+            <div className='viewMore__comingSoon'>
+                <a href='https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard' target="_blank" rel="noopener noreferrer">
+                    <h1 className='comingSoon__title'>Reporting Dashboard Internship Project</h1>
+                </a>
+                <p className=''>*coming soon: behance API integration*</p>
+                
             </div>
             
             <div className='viewmore__return'>

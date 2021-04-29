@@ -68,7 +68,7 @@ const EpicComp__viewmore = () => {
                 </div>
             </div>
 
-            <div className='viewmore__return'>
+            <div className='viewmore__returnEpic'>
                     <Link className='return__Link' to="/about">
                         <div className='return__button'>
                             <h2 className='button__text'> take me back </h2>

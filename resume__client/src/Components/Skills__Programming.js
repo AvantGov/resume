@@ -15,6 +15,7 @@ const Skills__Programming = () => {
                         <a href={item.linkURL} className="container__link" target='_blank' rel="noreferrer">
                             <p className='container__linkName'>{item.linkName}</p>
                         </a>
+                        
                         {item.hasLib ? item.lib.map((item) => {
                             console.log(item)
                             return(
