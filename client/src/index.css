@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,1117 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* Ryan-Mas Reset Implementation for browser + element consistency */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+Html {
+  font-size: 80%;
+}
+
+/* *APP STYLING* */
+.App {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 4rem;
+  color: #508d6a;
+}
+
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 130%;
+  color: #595e4a;
+}
+
+/* *HEADER COMPONENT STYLING* */
+.header {
+  height: max-content;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.header__iconContainer {
+  height: 150px;
+  width: 150px;
+  margin-top: -75px;
+  /* ! margin-left: auto; */
+  /* ! won't auto out to center left alignment and not sure why? */
+  margin-left: 3%;
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #6b7a65;
+  /* opacity: 900%; */
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconContainer__img {
+  height: 90%;
+  width: 90%;
+  background-image: url("./assets/alex.jpeg");
+  background-position: center;
+  border-radius: 100px;
+  /* opacity: 90%; */
+}
+
+.header__imgContainer {
+  width: 100%;
+  height: 300px;
+  /* opacity: 70%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgContainer__img {
+  height: 98%;
+  width: 99%;
+  background-image: url("./assets/inertia/1.jpg");
+  background-position: center 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__intro {
+  margin-left: 19%;
+  /* border: 2px solid black; */
+  width: 65%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__intro p {
+  font-family: "Recursive", sans-serif;
+  line-height: 150%;
+  font-weight: 350;
+}
+
+/* *WORK EXPERIENCE STYLES* */
+.WorkExp {
+  /* border: 2px solid black; */
+  width: 95%;
+  margin: 5% auto;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  /* justify-content: space-between; */
+}
+
+.WorkExp h1 {
+  margin: 0 auto;
+}
+
+.WorkExp__mainItems {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% auto;
+}
+
+.epicComp {
+  width: 45%;
+  height: 175px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.epicComp p {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 350;
+}
+
+.epicComp a {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 550;
+}
+
+.visaComp {
+  width: 45%;
+  height: 175px;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.visaComp p {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 350;
+}
+
+.visaComp a {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 550;
+}
+
+/*  * VIEW MORE PAGES BANNER STYLING * */
+.viewmore__banner {
+  background-image: url("./assets/inertia/1.jpg");
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* opacity: 90%; */
+}
+
+.viewmore__banner div {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.titleContainer__title {
+  padding-left: 2%;
+}
+
+.button__text {
+  text-decoration: none;
+}
+
+.viewMore__epic div h1 {
+  font-size: 2.5rem;
+}
+
+
+/*  * WELCOME SCREEN STYLING * */
+
+.welcome {
+  height: 86vh;
+  width: 100%;
+  background-image: url("./assets/inertia/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__entryButton {
+  border: 1px solid #595E4A;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.welcome__entryButton:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.welcome__entryButton:hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.welcome__Link {
+  text-decoration: none;
+}
+
+/*  * SKILLS HEADER STYLING * */
+
+.skillsHeader {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 22.5vh;
+  text-align: center;
+  margin-top: 3%;
+  background-color: #508D6A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skillsHeader h1 {
+  color: white;
+  margin-top: 1%;
+}
+
+.skillsHeader__areaContainer {
+  /* border: 2px solid blue; */
+  margin-top: 1%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.areaContainer__button {
+  border: 1px solid white;
+  background-color: white;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.areaContainer__button:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.areaContainer__button h2 {
+  color: #508D6A;
+}
+
+.areaContainer__button:hover h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.areaContainer__Link {
+  text-decoration: none;
+}
+
+.App__skillsViewer {
+  height: 80vh;
+  width: 100%;
+  border: 2px solid red;
+}
+
+/*  * JOBS HEADER STYLING * */
+
+.jobsHeader {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 22.5vh;
+  text-align: center;
+  background-color: #508D6A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.jobsHeader h1 {
+  color: white;
+  margin-top: 1%;
+}
+
+.jobsHeader__areaContainer {
+  /* border: 2px solid blue; */
+  margin-top: 1%;
+  height: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+/* * POP UP STYLING * */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__inner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+
+}
+
+.inner__closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+
+/* * VIEW MORE PAGES STYLING * */
+
+.viewMore__visa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewMore__intro {
+  /* border: 2px solid sienna; */
+  height: 25vh;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.viewMore__intro h1 {
+  font-size: 3rem;
+}
+
+.viewMore__details {
+  /* border: 2px solid brown; */
+  width: 95%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.viewMore__intro p {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 300;
+  padding-top: .25%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.descGrouper__unlist li {
+  font-family: "Recursive", sans-serif;
+  line-height: 130%;
+  font-weight: 300;
+  padding-top: 0.4%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.project__title {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.viewmore__return {
+  height: 60px;
+  width: 100%;
+  background-color: #508D6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewmore__returnEpic {
+  margin-top: 4%;
+  height: 150px;
+  width: 100%;
+  background-color: #508D6A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.return__button {
+  height: 40px;
+  width: 180px;
+  border: 0.5px solid white;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.return__button:hover {
+  background-color: #508D6A;
+  border: 2px solid white;
+}
+
+.return__button h2 {
+  color: #508D6A;
+}
+
+.return__button:hover h2 {
+  font-weight: 700;
+  color: white;
+}
+
+.return__Link {
+  text-decoration: none;
+} 
+
+.viewMore__comingSoon {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  background-color: #6b7a65;
+}
+
+.viewMore__comingSoon h1 {
+  color: white;
+}
+
+.viewMore__comingSoon a {
+  text-decoration: none;
+}
+
+.viewMore__comingSoon h1:hover {
+  text-decoration: underline;
+}
+
+.viewMore__comingSoon p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/*  * EPIC VIEW MORE STYLES * */
+.viewMore__epic {
+  /* border: 2px solid maroon; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.viewmore__intro {
+  /* border: 2px solid red; */
+  width: 95%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+.intro__desc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  margin-top: 1.5%;
+  line-height: 125%;
+}
+
+.viewmore__sectionContainer {
+  /* border: 2px solid magenta; */
+  margin-top: 2%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+
+
+}
+
+.sectionContainer__ownership {
+  /* border: 2px solid blue; */
+  width: 35%;
+
+}
+
+.ownership__areaContainer {
+  /* border: 2px solid tomato; */
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.areaContainer__desc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  margin-top: 1.5%;
+  line-height: 125%;
+} 
+
+.unlist__item {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  margin-top: 1.5%;
+  line-height: 125%;
+}
+
+
+.sectionContainer__technical {
+  /* border: 2px solid purple; */
+  width: 60%;
+
+}
+
+.technical__areaContainer {
+  /* border: 2px solid tomato; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.viewmore__rule {
+  border: 1px solid black;
+  /* opacity: 30%; */
+  width: 1px;
+  height: 40vh;;
+}
+
+.project__container {
+  border: 2px solid green;
+  width: 95%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.img__prj {
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+/*  * STYLING SUPPORT FOR EDUCATION SECTIONS * */
+.Education {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.Education__contentFrame {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* * corrects for inheretance of the parent title  */
+  text-align: left;
+  /*  */
+}
+
+.EduMrkt {
+  /* border: 2px solid green; */
+  height: 95%;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.EduMrkt__subheader {
+  font-family: 'Kumbh Sans', sans-serif;
+
+}
+
+
+.descFrame__desc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  line-height: 135%;
+}
+
+.EduMrkt__descFrame {
+  width: 50%;
+
+}
+
+.courseFrame__title {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;  
+}
+
+.minorFrame__title {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.minorFrame__minor {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.EduMrkt__contentFrame {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contentFrame__rule {
+  border: 1px solid black;
+  /* opacity: 30%; */
+  height: 70%;
+  width: 1px;
+}
+
+.EduMrkt__minorFrame {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 35%;
+  width: 90%;
+}
+
+.minorFrame__minorDesc {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 200;
+  line-height: 135%;
+}
+
+/* * PROGRAMMING STYLING * */
+.EduProg {
+  /* border: 2px solid green; */
+  height: 45%;
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.EduProg__subheader {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.EduProg__descFrame {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.descFrame__rule {
+  border: 3px solid black;
+  /* opacity: 30%; */
+  width: 1px;
+  height: 90%;
+}
+
+.descFrame__progDesc {
+  width: 50%;
+  font-family: 'Recursive', sans-serif;
+  font-weight: 300;
+  line-height: 135%;
+}
+
+.Education__rule {
+  border: 2px solid black;
+  /* opacity: 30%; */
+  width: 1px;
+  height: 90%;
+}
+
+/*  *STYLING SUPPORT FOR CONTACT AND FOOTER SECTIONS* */
+.Footer {
+  /* border: 2px solid red; */
+  border-top: 1px dashed #508d6a;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.Contact {
+  /* border: 2px solid blue; */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Contact__header {
+  padding-left: 5%;
+  font-weight: 700;
+}
+
+.Contact__frame {
+  padding-left: 10%;
+}
+
+.frame__unlist li {
+  font-weight: 400;
+}
+
+.unlist__item a {
+  text-decoration: none;
+}
+
+.SiteFooter {
+  /* border: 2px solid green; */
+  width: 80%;
+  height: 100%;
+  background-color: #508D6A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.SiteFooter__header {
+  color: white;
+  font-size: 2.5rem;
+  padding-left: 2%;
+}
+
+.SiteFooter__Link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+
+}
+
+.SiteFooter__unlist li {
+  padding-left: 5%;
+}
+
+.SiteFooter__unlist li:hover {
+  padding-left: 7.5%;
+}
+
+
+.unlist__item:hover {
+  font-weight: 500;
+}
+
+.frame__unlist li:hover {
+  padding-left: 7.5%;
+}
+
+/* * TRADEMARK STYLING SUPPORT * */
+
+.Trademark {
+  border-top: 1px dashed #508d6a;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Trademark p {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 2.75rem;
+  color: #508d6a;
+  font-weight: 500;
+}
+
+/*  *SOME GENERAL POP UP FRAMEWORK STYLINF SUPPORT* */
+.inner__closeBtn {
+  border-radius: 25px;
+  color: #508d6a;
+  background-color: #ffffff;
+  border: 2px solid #508d6a;
+}
+
+.inner__closeBtn:hover {
+  color: #ffffff;
+  background-color: #508d6a;
+  border: 2px solid #595E4A;
+}
+
+/* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
+.EcommJobs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.EcommJobs__rule {
+  width: 1px;
+  height: 300px;
+  border: 2px solid black;
+  /* opacity: 30%; */
+}
+
+.EcommJobs__jobFrame {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jobFrame__header {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+.jobFrame__subheader {
+  font-size: 1.2rem;
+}
+
+.jobFrame__unlist {
+  padding-left: 3%;
+}
+
+.jobFrame__unlist li {
+  padding-top: 1%;
+}
+
+.item__unlist {
+  padding-left: 7.5%;
+}
+
+/* *STYLING FOR THE NOTIFICATION BANNER* */
+.NotifBanner {
+  height: 14vh;
+  width: 100%;
+  background-color: #508D6A;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.NotifBanner__message {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.NotifBanner a {
+  /* border: 2px solid red; */
+  text-decoration: underline;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-left: .5%;
+  /* this looks dumb but it's needed to keep the link on one line */
+  width: 20%;
+}
+
+.NotifBanner a:hover {
+  text-decoration: underline;
+}
+
+
+/* *POP UP INFOMRATION STYLING FOR SKILLS* */
+.viewmore__programming {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container__libContainer {
+  height: 55%;
+  /* border: 2px solid red; */
+
+}
+
+.programming__container p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.libContainer__header {
+  font-family: 'Kumbh Sans', sans-serif; 
+
+}
+
+.viewmore__media {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.viewmore__media p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.container__linkName {
+  margin-top: 1%;
+}
+
+.container__desc {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+}
+
+.viewmore__ecomm {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.viewmore__ecomm p {
+  font-family: 'Recursive', sans-serif;
+  line-height: 130%;
+  margin-top: 1%;
+}
+
+.EntertainJobs {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.EntertainJobs a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.EntertainJobs a:hover {
+  text-decoration: underline;
+}
+
+.EntertainJobs p {
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+} 
