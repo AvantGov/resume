@@ -169,7 +169,7 @@ h2 {
 .header {
   height: 100%;
   width: 100%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .header__iconContainer {
@@ -217,10 +217,10 @@ h2 {
 }
 
 .header__intro {
-  margin-left: 19%;
+  padding-left: 19%;
   /* border: 2px solid black; */
-  width: 65%;
-  height: 250px;
+  width: 95%;
+  height: 190%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -230,6 +230,7 @@ h2 {
   font-family: "Recursive", sans-serif;
   line-height: 150%;
   font-weight: 350;
+  font-size: 1.5rem;
 }
 
 /* *WORK EXPERIENCE STYLES* */
@@ -237,10 +238,9 @@ h2 {
   /* border: 2px solid black; */
   width: 95%;
   margin: 5% auto;
-  height: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 2px solid black; */
   /* justify-content: space-between; */
 }
 
@@ -256,28 +256,39 @@ h2 {
 
 .epicComp {
   width: 45%;
-  height: 175px;
+  height: 100%;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.epicComp__header {
+  font-size: 2rem;
+}
+
 .epicComp p {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
   font-weight: 350;
+  font-size: 1.3rem;
 }
 
 .epicComp a {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
-  font-weight: 550;
+  font-weight: 750;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.visaComp__header {
+  font-size: 2rem;
 }
 
 .visaComp {
   width: 45%;
-  height: 175px;
+  height: 100%;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
@@ -288,12 +299,15 @@ h2 {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
   font-weight: 350;
+  font-size: 1.3rem;
 }
 
 .visaComp a {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
-  font-weight: 550;
+  font-weight: 750;
+  font-size: 1.3rem;
+  text-decoration: none;
 }
 
 /*  * VIEW MORE PAGES BANNER STYLING * */
@@ -372,6 +386,7 @@ h2 {
   width: 100%;
   height: 30vh;
   text-align: center;
+  margin-top: 1%;
   padding-top: 3%;
   background-color: #508D6A;
   display: flex;
@@ -476,8 +491,9 @@ h2 {
   position: relative;
   padding: 32px;
   width: 100%;
-  max-width: 640px;
+  max-width: 80%;
   background-color: white;
+  height: 85%;
 
 }
 
@@ -995,7 +1011,7 @@ h2 {
 }
 
 .jobFrame__subheader {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .jobFrame__unlist {
@@ -1024,7 +1040,7 @@ h2 {
 .NotifBanner__message {
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -1033,7 +1049,7 @@ h2 {
   text-decoration: underline;
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding-left: .5%;
   /* this looks dumb but it's needed to keep the link on one line */
@@ -1047,7 +1063,8 @@ h2 {
 
 /* *POP UP INFOMRATION STYLING FOR SKILLS* */
 .viewmore__programming {
-  height: 70vh;
+  /* border: 2px solid blue; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1062,11 +1079,23 @@ h2 {
 .programming__container p {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
+  font-size: 1.3rem;
+}
+
+.programming__container a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.programming__container a:hover {
+  font-weight: 550;
+  text-decoration: underline;
 }
 
 .libContainer__header {
   font-family: 'Kumbh Sans', sans-serif; 
-
+  font-size: 1.75rem;
 }
 
 .viewmore__media {
@@ -1079,7 +1108,20 @@ h2 {
 .viewmore__media p {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
+  font-size: 1.3rem;
 }
+
+.viewmore__media a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.viewmore__media a:hover {
+  font-weight: 550;
+  text-decoration: underline;
+}
+
 
 .container__linkName {
   margin-top: 1%;
@@ -1101,6 +1143,18 @@ h2 {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
   margin-top: 1%;
+  font-size: 1.3rem;
+}
+
+.viewmore__ecomm a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.viewmore__ecomm a:hover {
+  text-decoration: underline;
+  font-weight: 550;
 }
 
 .EntertainJobs {

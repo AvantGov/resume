@@ -12,8 +12,8 @@ const skills = {
                 {
                     name: "ReactJS",
                     description: "Self-guided education starting with fundamental JS and jQuery, leading to formal education in ReactJS UI framework. Designs frontend SPA interfaces with Redux and Context API architecture represented in data management strategy. Strong confidence in programming data consumption from API sources, and rendering dynamic interfaces based on dynamic data.",
-                    hasLink: false,
-                    linkURL: null,
+                    hasLink: true,
+                    linkURL: "https://github.com/AvantGov/resume",
                     linkName: "[this website is built with React!]"
                 },
                 {
