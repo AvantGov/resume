@@ -1335,6 +1335,7 @@ h2 {
   .jobsHeader__areaContainer {
     flex-direction: column;
     justify-content: space-between;
+    height: 50%;
   }
 
   /* modifications to education section */
@@ -1383,6 +1384,32 @@ h2 {
     width: 100%;
     height: 1200px;
   }
+}
 
+@media screen and (max-width: 900px) {
+  .header__iconContainer {
+    margin-left: 70%;
+  }
 
+  .header__intro {
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  .header {
+    margin-bottom: 2%;
+  }
+
+  .jobsHeader__areaContainer {
+    height: 50%;
+  }
+
+  .Contact {
+    height: 80%;
+  }
+
+  .Contact__header {
+    padding-left: 0%;
+    width: 50%;
+  }
 }
