@@ -36,7 +36,7 @@ const EduMrkt = () => {
             <div className='EduMrkt__minorFrame'>
                 <h3 className="minorFrame__title">Minors</h3>
                 <p className='minorFrame__minor'>Visual Communication Design</p>
-                <p className='minorFrame__minorDesc'>This programs develop technical proficiency and design expertise by organization of imagery and typography for commercial and illustrative application to communicate information in both two- and three-dimensional form."</p>
+                <p className='minorFrame__minorDesc'>This programs develop technical proficiency and design expertise by organization of imagery and typography for commercial and illustrative application to communicate information in both two- and three-dimensional form.</p>
                 <p className='minorFrame__minor'>Photo-Illustration</p>
                 <p className='minorFrame__minorDesc'>Prepares students to become emerging professional photographers in a range of careers including Advertising, Fashion, Architectural, Food, Editorial Photography, Commercial Photography, Portraiture, Photo and Art Direction, Digital Technical, and Fine Art Photography.</p>
             </div>

@@ -1285,3 +1285,80 @@ h2 {
   text-align: center;
   font-family: 'Recursive', sans-serif;
 } 
+
+/* *MEDIA QUERIES FOR RESPONSIVE CONSIDERATION* */
+
+@media screen and (max-width: 1080px) {
+  
+  /* turn skills button to column */
+  .skillsHeader__areaContainer {
+    /* border: 2px solid black; */
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+  }
+
+  /* work experience modification  */
+
+  .WorkExp {
+    margin: 3% auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .WorkExp__mainItems {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+  }
+
+  .epicComp {
+    width: 95%;
+    padding-top: 2%;
+  }
+
+  .visaComp {
+    width: 95%;
+    padding-top: 5%;
+  }
+
+  /* additional experience to column */
+  .jobsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .jobsHeader__areaContainer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* modifications to education section */
+
+  .Education__contentFrame {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .Education__rule {
+    height: 0px;
+    width: 95%;
+    border: dashed;
+  }
+
+  .EduMrkt {
+    width: 95%;
+  }
+
+  .EduProg {
+    width: 95%;
+  }
+
+
+
+}
