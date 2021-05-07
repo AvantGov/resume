@@ -16,7 +16,7 @@ const Footer = () => {
                 frameborder="0" 
                 allowtransparency="true" 
                 allow="encrypted-media"
-                className='Footer__spotity'>
+                className='Footer__spotify'>
             </iframe>
         </div>
     )

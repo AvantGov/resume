@@ -1359,6 +1359,30 @@ h2 {
     width: 95%;
   }
 
+  /* modifying the footer elements */
+  .Footer {
+    flex-direction: column;
+  }
+
+  .Contact {
+    width: 100%;
+    height: 55%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Contact__header {
+    width: 40%;
+  }
+
+  .SiteFooter {
+    width: 100%;
+  }
+
+  .Footer__spotify {
+    width: 100%;
+    height: 1200px;
+  }
 
 
 }
