@@ -13,8 +13,8 @@ const EduMrkt = () => {
             <div className='EduMrkt__contentFrame'>
                 <div className='EduMrkt__descFrame'>
                     <p className='descFrame__desc'>
-                        The Bachelor of Business Administration degree in Marketing Communication Strategy prepares students to be marketing practitioners by helping them to fully develop the analytical, decision-making and communications (written and oral) skills used and valued by individuals working in this field.     
-                        Faculty engage each student in active learning through hands-on assignments, case studies, projects with real businesses, and dynamic interactions with faculty members and other students in the classroom.
+                        The Bachelor of Business Administration degree in Marketing Communication Strategy prepares students to be marketing practitioners by helping them to fully develop the analytical, decision-making and communications (written and oral) skills used and valued by individuals working in this field.<br /><br />    
+                        Faculty engage each student in active learning through hands-on assignments, case studies, projects with real businesses, and dynamic interactions with faculty members and other students in the classroom.<br /><br />
                         The objective of this program is to educate students to function effectively in business environments where they will have to make autonomous decisions and be required to take action on their own initiative.
                     </p>
                 </div>
