@@ -1384,6 +1384,24 @@ h2 {
     width: 100%;
     height: 1200px;
   }
+
+  .EcommJobs {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .EcommJobs__jobFrame {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 40%;
+    justify-content: space-around;
+  }
+
+  .EcommJobs__rule {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -1411,5 +1429,86 @@ h2 {
   .Contact__header {
     padding-left: 0%;
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+
+  .header__iconContainer {
+    display: none;
+  }
+
+  .WorkExp__header {
+    text-align: center;
+  }
+
+  .jobsHeader__areaContainer {
+    justify-content: space-around;
+  }
+
+
+  .Education {
+    justify-content: space-around;
+  }
+
+  .contentFrame__rule {
+    display: none;
+  }
+
+
+  .EduMrkt__courseFrame {
+    display: none;
+  }
+
+  .EduMrkt__descFrame {
+    width: 95%;
+  }
+
+  .EduMrkt__minorFrame {
+    height: 45%;
+  }
+
+  .EduProg__courseFrame {
+    display: none;
+  }
+
+  .EduProg__descFrame {
+    width: 95%;
+  }
+
+  .descFrame__progDesc {
+    width: 95%;
+  }
+
+  .EduProg__minorFrame {
+    height: 45%;
+  }
+
+  .descFrame__rule {
+    display: none;
+  }
+
+  .descFrame__unlist {
+    display: none;
+  }
+
+  .viewmore__media {
+    height: 100%;
+  }
+
+  .areaContainer__button {
+    width: 400px;
+  }
+
+  .welcome__title {
+    text-align: center;
+  }
+
+  .NotifBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
