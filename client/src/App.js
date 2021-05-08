@@ -108,6 +108,19 @@ function App() {
       </Route>
 
       <Route exact path='/about'>
+        <iframe 
+          src="https://open.spotify.com/embed/playlist/6a6WHsODpZRCD4lUwyYVdN" 
+          title='AvantGov HQ Playlist'
+          width="100%" 
+          height="350px" 
+          frameborder="0" 
+          allowtransparency="true" 
+          allow="encrypted-media"
+          className='Footer__spotify'>
+        </iframe>
+      </Route>
+
+      <Route exact path='/about'>
         <TM />
       </Route>
 
