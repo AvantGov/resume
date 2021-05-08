@@ -459,7 +459,7 @@ h2 {
 .App__skillsViewer {
   height: 80vh;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /*  * JOBS HEADER STYLING * */
@@ -1119,6 +1119,31 @@ h2 {
   align-items: center;
 }
 
+@media screen and (max-height: 750px) {
+  #SGY {
+    margin-top: 15%;
+  }
+}
+
+
+@media screen and (max-height: 660px) {
+  #SGY {
+    margin-top: 30%;
+  }
+}
+
+@media screen and (max-height: 610px) {
+  #SGY {
+    margin-top: 55%;
+  }
+}
+
+@media screen and (max-height: 510px) {
+  #SGY {
+    margin-top: 75%;
+  }
+}
+
 .EcommJobs__rule {
   width: 1px;
   height: 700px;
@@ -1135,12 +1160,12 @@ h2 {
 }
 
 .jobFrame__header {
-  font-size: 3.0rem;
+  font-size: 2.5rem;
   line-height: 130%;
 }
 
 .jobFrame__subheader {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .jobFrame__unlist {
@@ -1477,6 +1502,7 @@ h2 {
     overflow-y: scroll;
     /* border: 2px solid red; */
   }
+
 
   .EcommJobs__jobFrame {
     /* border: 2px solid red; */
