@@ -8,7 +8,7 @@ const Skills__Programming = () => {
         <div className='viewmore__programming'>
             {skills.skills__programming.map((item) => {
                 return(
-                    <div className='programming__container' key={item.name}>
+                    <div className='programming__container' key={item.name} id={item.name}>
                         <h2 className='container__header'>{item.name}</h2>
                         {/* implement function for rendering icons */}
                         <p className='container__desc'>{item.description}</p>
@@ -21,11 +21,8 @@ const Skills__Programming = () => {
                             return(
                                 <div className='container__libContainer' key={item.name}>
                                     <h3 className='libContainer__header'>{item.name}</h3>
-                                    <p className='libContainer__desc'>{item.description}</p>
-                                    <a href={item.linkURL} className='libContainer__link' target='_blank' rel="noreferrer">
-                                        <p className='libContainer__linkName'>{item.linkName}</p>
-                                    </a>
-
+                                    <p className='libContainer__desc'>{item.description}</p><br />
+                                    <p className='libContainer__linkName'><a href={item.linkURL} className='libContainer__link' target='_blank' rel="noreferrer">{item.linkName}</a></p>
                                 </div>
                             )
                         }) : null}

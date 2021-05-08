@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
+// TODO: possible enhancement would be to have an array of UUID keys and all
+//  the photos with a UUID key assigned, then have a pop up frame work to cycle through 
+// the images by swapping keys in the array 
 
 
 // // * image imports for src 
@@ -72,7 +74,7 @@ const VisaComp__viewmore = () => {
             <div className='viewmore__return'>
                     <Link className='return__Link' to="/about">
                         <div className='return__button'>
-                            <h2> take me back </h2>
+                            <h2 className='button__text'> take me back </h2>
                         </div>   
                     </Link>
             </div>

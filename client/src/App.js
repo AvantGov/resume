@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">  
       <Route exact path='/'>
-        <NotifBanner />
+        {/* <NotifBanner /> */}
         <Welcome />
       </Route>
 
@@ -105,6 +105,19 @@ function App() {
 
       <Route exact path='/about'>
         <Footer />
+      </Route>
+
+      <Route exact path='/about'>
+        <iframe 
+          src="https://open.spotify.com/embed/playlist/6a6WHsODpZRCD4lUwyYVdN" 
+          title='AvantGov HQ Playlist'
+          width="100%" 
+          height="350px" 
+          frameborder="0" 
+          allowtransparency="true" 
+          allow="encrypted-media"
+          className='Footer__spotify'>
+        </iframe>
       </Route>
 
       <Route exact path='/about'>

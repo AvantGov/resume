@@ -6,7 +6,7 @@ const Contact = () => {
 
     return(
         <div className='Contact'>
-            <h2 className='Contact__header'>Where to Find Me:</h2>
+            <h2 className='Contact__header'>Where to Find Me</h2>
             <div className="Contact__frame">
                 <ul className="frame__unlist">
                     <li className='unlist__item'>avantgov@protonmail.com</li>

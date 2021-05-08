@@ -10,9 +10,7 @@ const Skills__Ecomm = () => {
                 <div className='ecomm__container' key={item.name}>
                     <h2 className='container__header'>{item.name}</h2>
                     <p className='container__desc'>{item.description}</p>
-                    <a href={item.linkURL}>
-                        <p className='container__link'>{item.linkName}</p>
-                    </a>
+                    <p className='container__link'><a href={item.linkURL} target='_blank' rel="noreferrer">{item.linkName}</a></p>
                 </div>
             )
 

@@ -19,7 +19,7 @@ div,
 span,
 applet,
 object,
-iframe,
+/* iframe, */
 h1,
 h2,
 h3,
@@ -154,27 +154,27 @@ Html {
 
 h1 {
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 4rem;
+  font-size: 6rem;
   color: #508d6a;
 }
 
 h2 {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   line-height: 130%;
   color: #595e4a;
 }
 
 /* *HEADER COMPONENT STYLING* */
 .header {
-  height: max-content;
+  height: 100%;
   width: 100%;
   /* border: 2px solid black; */
 }
 
 .header__iconContainer {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   margin-top: -75px;
   /* ! margin-left: auto; */
   /* ! won't auto out to center left alignment and not sure why? */
@@ -217,10 +217,10 @@ h2 {
 }
 
 .header__intro {
-  margin-left: 19%;
+  padding-left: 19%;
   /* border: 2px solid black; */
-  width: 65%;
-  height: 250px;
+  width: 95%;
+  height: 190%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -230,6 +230,7 @@ h2 {
   font-family: "Recursive", sans-serif;
   line-height: 150%;
   font-weight: 350;
+  font-size: 1.5rem;
 }
 
 /* *WORK EXPERIENCE STYLES* */
@@ -237,10 +238,9 @@ h2 {
   /* border: 2px solid black; */
   width: 95%;
   margin: 5% auto;
-  height: 300px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 2px solid black; */
   /* justify-content: space-between; */
 }
 
@@ -256,28 +256,45 @@ h2 {
 
 .epicComp {
   width: 45%;
-  height: 175px;
+  height: 100%;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+.epicComp__header {
+  font-size: 2rem;
+}
+
 .epicComp p {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
   font-weight: 350;
+  font-size: 1.3rem;
 }
 
 .epicComp a {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
+  font-weight: 750;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #508d6a;
+}
+
+.epicComp a:hover {
+  text-decoration: underline;
   font-weight: 550;
+}
+
+.visaComp__header {
+  font-size: 2rem;
 }
 
 .visaComp {
   width: 45%;
-  height: 175px;
+  height: 100%;
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
@@ -288,18 +305,28 @@ h2 {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
   font-weight: 350;
+  font-size: 1.3rem;
 }
 
 .visaComp a {
   font-family: "Recursive", sans-serif;
   line-height: 130%;
+  font-weight: 750;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #508d6a;
+}
+
+.visaComp a:hover {
+  text-decoration: underline;
   font-weight: 550;
 }
 
 /*  * VIEW MORE PAGES BANNER STYLING * */
 .viewmore__banner {
   background-image: url("./assets/inertia/1.jpg");
-  height: 60px;
+  background-position: top;
+  height: 20%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -314,13 +341,16 @@ h2 {
 
 .titleContainer__title {
   padding-left: 2%;
+  font-size: 2.75rem;
+  width: 45%;
+}
+
+.titleContainer__name {
+  padding-top: .5%;
 }
 
 .button__text {
   text-decoration: none;
-}
-
-.viewMore__epic div h1 {
   font-size: 2.5rem;
 }
 
@@ -340,10 +370,11 @@ h2 {
 }
 
 .welcome__entryButton {
-  border: 1px solid #595E4A;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
+  border: 3px solid #595E4A;
+  background-color: #ffffff;
+  width: 450px;
+  height: 70px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,7 +383,7 @@ h2 {
 
 .welcome__entryButton:hover {
   background-color: #508D6A;
-  border: 2px solid white;
+  border: 4px solid white;
 }
 
 .welcome__entryButton:hover h2 {
@@ -369,9 +400,11 @@ h2 {
 .skillsHeader {
   /* border: 2px solid black; */
   width: 100%;
-  height: 22.5vh;
+  height: 100%;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: #508D6A;
   display: flex;
   flex-direction: column;
@@ -380,7 +413,7 @@ h2 {
 
 .skillsHeader h1 {
   color: white;
-  margin-top: 1%;
+  padding-bottom: 1%;
 }
 
 .skillsHeader__areaContainer {
@@ -395,8 +428,8 @@ h2 {
 .areaContainer__button {
   border: 1px solid white;
   background-color: white;
-  width: 250px;
-  height: 40px;
+  width: 500px;
+  height: 70px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -475,8 +508,9 @@ h2 {
   position: relative;
   padding: 32px;
   width: 100%;
-  max-width: 640px;
+  max-width: 80%;
   background-color: white;
+  height: 85%;
 
 }
 
@@ -497,22 +531,39 @@ h2 {
 
 .viewMore__intro {
   /* border: 2px solid sienna; */
-  height: 25vh;
+  height: 100%;
   width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2.5%;
+  padding-top: 2%;
+}
+
+.viewmore__intro {
+   padding-top: 3%;
 }
 
 .viewMore__intro h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.viewMore__intro h2 {
+  font-size: 2rem;
+}
+
+.details__descGrouper h2 {
+  font-size: 2rem;
+}
+
+.details__descGrouper {
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .viewMore__details {
   /* border: 2px solid brown; */
   width: 95%;
-  height: 35vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -534,6 +585,11 @@ h2 {
   padding-top: 0.4%;
   padding-left: 2%;
   padding-right: 2%;
+  font-size: 1.3rem;
+}
+
+.descGrouper__unlist li:hover {
+  font-weight: 500;
 }
 
 .project__title {
@@ -542,30 +598,36 @@ h2 {
 }
 
 .viewmore__return {
-  height: 60px;
+  height: 100px;
   width: 100%;
   background-color: #508D6A;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 2rem;
 }
 
 .viewmore__returnEpic {
   margin-top: 4%;
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: #508D6A;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 2rem;
 }
 
 .return__button {
-  height: 40px;
-  width: 180px;
+  height: 60px;
+  width: 480px;
   border: 0.5px solid white;
   background-color: #ffffff;
-  border-radius: 25px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -595,13 +657,15 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 100%;
   width: 100%;
   background-color: #6b7a65;
 }
 
 .viewMore__comingSoon h1 {
   color: white;
+  padding-top: 2%;
+  line-height: 125%;
 }
 
 .viewMore__comingSoon a {
@@ -616,6 +680,7 @@ h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 1.2rem;
   color: white;
+  padding-bottom: 10%;
 }
 
 /*  * EPIC VIEW MORE STYLES * */
@@ -625,12 +690,18 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 100%;
 }
+
+.viewMore__epic div h1 {
+  font-size: 3.5rem;
+}
+
 
 .viewmore__intro {
   /* border: 2px solid red; */
   width: 95%;
-  height: 20vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -638,44 +709,64 @@ h2 {
   
 }
 
+.ownership__title {
+  text-align: center;
+}
+
+.technical__title {
+  text-align: center;
+}
+
+.areaContainer__unlist li {
+  font-size: 1.3rem;
+  padding-left: 5%;
+}
+
+.intro__subheader {
+  font-size: 2.0rem;
+}
+
 .intro__desc {
   font-family: 'Recursive', sans-serif;
   font-weight: 300;
   margin-top: 1.5%;
   line-height: 125%;
+  font-size: 1.3rem;
 }
 
 .viewmore__sectionContainer {
   /* border: 2px solid magenta; */
-  margin-top: 2%;
-  height: 65vh;
+  margin-top: 3%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 95%;
-
-
 }
 
 .sectionContainer__ownership {
   /* border: 2px solid blue; */
   width: 35%;
-
 }
 
 .ownership__areaContainer {
   /* border: 2px solid tomato; */
-  height: 30vh;
+  height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.areaContainer__title {
+  font-size: 2.0rem;
+}
 
 .areaContainer__desc {
   font-family: 'Recursive', sans-serif;
   font-weight: 300;
-  margin-top: 1.5%;
-  line-height: 125%;
+  /* margin-top: 1.5%; */
+  line-height: 135%;
+  font-size: 1.3rem;
 } 
 
 .unlist__item {
@@ -689,7 +780,7 @@ h2 {
 .sectionContainer__technical {
   /* border: 2px solid purple; */
   width: 60%;
-
+  height: 100%;
 }
 
 .technical__areaContainer {
@@ -725,12 +816,13 @@ h2 {
 .Education {
   /* border: 2px solid red; */
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .Education__contentFrame {
@@ -760,6 +852,10 @@ h2 {
 
 }
 
+.EduMrkt__contentFrame {
+  padding-top: 2%;
+}
+
 
 .descFrame__desc {
   font-family: 'Recursive', sans-serif;
@@ -772,6 +868,10 @@ h2 {
 
 }
 
+.EduMrkt__descFrame p {
+  font-size: 1.2rem;
+}
+
 .courseFrame__title {
   font-family: 'Recursive', sans-serif;
   font-weight: 400;
@@ -781,12 +881,16 @@ h2 {
 .minorFrame__title {
   font-family: 'Recursive', sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.0rem;
+  text-align: center;
 }
 
 .minorFrame__minor {
   font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.5rem;
+  padding-top: 2.5%;
 }
+
 
 .EduMrkt__contentFrame {
   display: flex;
@@ -796,7 +900,7 @@ h2 {
 .contentFrame__rule {
   border: 1px solid black;
   /* opacity: 30%; */
-  height: 70%;
+  height: 215px;
   width: 1px;
 }
 
@@ -807,12 +911,30 @@ h2 {
   justify-content: space-around;
   height: 35%;
   width: 90%;
+  padding-top: 3%;
 }
 
 .minorFrame__minorDesc {
   font-family: 'Recursive', sans-serif;
   font-weight: 200;
-  line-height: 135%;
+  line-height: 130%;
+  font-size: 1.3rem;
+}
+
+.descFrame__unlist {
+  width: 20%;
+}
+
+.courseFrame__unlist li:hover {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 1%;
+}
+
+.descFrame__unlist li:hover {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 1%;
 }
 
 /* * PROGRAMMING STYLING * */
@@ -829,17 +951,23 @@ h2 {
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+
 .EduProg__descFrame {
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-around;
+  padding-top: 3%;
+}
+
+.EduProg__descFrame p {
+  font-size: 1.3rem;
 }
 
 .descFrame__rule {
   border: 3px solid black;
   /* opacity: 30%; */
   width: 1px;
-  height: 90%;
+  height: 215px;
 }
 
 .descFrame__progDesc {
@@ -853,14 +981,14 @@ h2 {
   border: 2px solid black;
   /* opacity: 30%; */
   width: 1px;
-  height: 90%;
+  height: 500px;
 }
 
 /*  *STYLING SUPPORT FOR CONTACT AND FOOTER SECTIONS* */
 .Footer {
   /* border: 2px solid red; */
   border-top: 1px dashed #508d6a;
-  height: 40vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -870,20 +998,24 @@ h2 {
 
 .Contact {
   /* border: 2px solid blue; */
-  width: 20%;
+  width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding-left: 5%;
 }
 
 .Contact__header {
-  padding-left: 5%;
   font-weight: 700;
+  font-size: 2rem;
 }
 
 .Contact__frame {
-  padding-left: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  /* padding-left: 5%; */
 }
 
 .frame__unlist li {
@@ -896,7 +1028,7 @@ h2 {
 
 .SiteFooter {
   /* border: 2px solid green; */
-  width: 80%;
+  width: 60%;
   height: 100%;
   background-color: #508D6A;
   display: flex;
@@ -908,6 +1040,7 @@ h2 {
   color: white;
   font-size: 2.5rem;
   padding-left: 2%;
+  padding-top: 4%;
 }
 
 .SiteFooter__Link {
@@ -915,6 +1048,10 @@ h2 {
   font-size: 1.5rem;
   color: white;
 
+}
+
+.SiteFooter__unlist {
+  padding-bottom: 5%;
 }
 
 .SiteFooter__unlist li {
@@ -932,7 +1069,14 @@ h2 {
 
 .frame__unlist li:hover {
   padding-left: 7.5%;
+  font-weight: 600;
 }
+
+.frame__unlist li a {
+  color: #508d6a;
+}
+
+
 
 /* * TRADEMARK STYLING SUPPORT * */
 
@@ -950,6 +1094,7 @@ h2 {
   font-size: 2.75rem;
   color: #508d6a;
   font-weight: 500;
+  text-align: center;
 }
 
 /*  *SOME GENERAL POP UP FRAMEWORK STYLINF SUPPORT* */
@@ -969,13 +1114,12 @@ h2 {
 /* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
 .EcommJobs {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 .EcommJobs__rule {
   width: 1px;
-  height: 300px;
+  height: 700px;
   border: 2px solid black;
   /* opacity: 30%; */
 }
@@ -989,12 +1133,12 @@ h2 {
 }
 
 .jobFrame__header {
-  font-size: 2rem;
-  line-height: 120%;
+  font-size: 3.0rem;
+  line-height: 130%;
 }
 
 .jobFrame__subheader {
-  font-size: 1.2rem;
+  font-size: 1.75rem;
 }
 
 .jobFrame__unlist {
@@ -1003,6 +1147,7 @@ h2 {
 
 .jobFrame__unlist li {
   padding-top: 1%;
+  font-size: 1.3rem;
 }
 
 .item__unlist {
@@ -1011,19 +1156,20 @@ h2 {
 
 /* *STYLING FOR THE NOTIFICATION BANNER* */
 .NotifBanner {
-  height: 14vh;
+  height: 16vh;
   width: 100%;
   background-color: #508D6A;
   display: flex;
   /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 2%;
 }
 
 .NotifBanner__message {
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -1032,7 +1178,7 @@ h2 {
   text-decoration: underline;
   font-family: 'IBM Plex Sans', sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   padding-left: .5%;
   /* this looks dumb but it's needed to keep the link on one line */
@@ -1046,11 +1192,12 @@ h2 {
 
 /* *POP UP INFOMRATION STYLING FOR SKILLS* */
 .viewmore__programming {
-  height: 70vh;
+  /* border: 2px solid blue; */
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
+
 
 .container__libContainer {
   height: 55%;
@@ -1058,27 +1205,73 @@ h2 {
 
 }
 
+.programming__container h2 {
+  font-size: 3rem;
+}
+
+.media__container {
+  padding-top: 10%;
+}
+
+.media__container h2 {
+  font-size: 3rem;
+}
+
+.ecomm__container {
+  padding-top: 10%;
+}
+
+.ecomm__container h2 {
+  font-size: 3rem;
+}
+
 .programming__container p {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
+  font-size: 1.3rem;
+}
+
+.programming__container a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.programming__container a:hover {
+  font-weight: 550;
+  text-decoration: underline;
 }
 
 .libContainer__header {
   font-family: 'Kumbh Sans', sans-serif; 
-
+  font-size: 1.75rem;
 }
 
 .viewmore__media {
   height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  overflow-y: scroll;
 }
 
 .viewmore__media p {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
+  font-size: 1.3rem;
 }
+
+.viewmore__media a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.viewmore__media a:hover {
+  font-weight: 550;
+  text-decoration: underline;
+}
+
+
 
 .container__linkName {
   margin-top: 1%;
@@ -1090,16 +1283,28 @@ h2 {
 }
 
 .viewmore__ecomm {
-  height: 40vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  overflow-y: scroll;
 }
 
 .viewmore__ecomm p {
   font-family: 'Recursive', sans-serif;
   line-height: 130%;
   margin-top: 1%;
+  font-size: 1.3rem;
+}
+
+.viewmore__ecomm a {
+  text-decoration: none;
+  font-weight: 750;
+  color: #508d6a;
+}
+
+.viewmore__ecomm a:hover {
+  text-decoration: underline;
+  font-weight: 550;
 }
 
 .EntertainJobs {
@@ -1124,3 +1329,439 @@ h2 {
   text-align: center;
   font-family: 'Recursive', sans-serif;
 } 
+
+/* *MEDIA QUERIES FOR RESPONSIVE CONSIDERATION* */
+
+@media screen and (max-width: 1230px) {
+  
+  /* turn skills button to column */
+  .skillsHeader__areaContainer {
+    /* border: 2px solid black; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 110%;
+    padding-bottom: 1%;
+  }
+
+  .areaContainer__button {
+    margin-top: 1.5%;
+  }
+
+  /* work experience modification  */
+
+  .WorkExp {
+    margin: 3% auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .WorkExp__mainItems {
+    /* border: 2px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+  }
+
+  .epicComp {
+    width: 95%;
+    padding-top: 2%;
+  }
+
+  .visaComp {
+    width: 95%;
+    padding-top: 5%;
+  }
+
+  /* additional experience to column */
+  .jobsHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding-bottom: 3%;
+  }
+  
+  .jobsHeader__areaContainer {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+
+  /* modifications to education section */
+
+  .Education__contentFrame {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+
+  .Education__header {
+    padding-bottom: 7%;
+  }
+
+  .EduMrkt__minorFrame {
+    padding-bottom: 4%;
+    padding-top: 5%;
+  }
+
+  .minorFrame__minorDesc {
+    padding-bottom: 2%;
+  }
+
+  .Education__rule {
+    height: 0px;
+    width: 95%;
+    border: dashed;
+  }
+
+  .EduMrkt {
+    width: 95%;
+  }
+
+  .EduProg {
+    width: 95%;
+    padding-top: 3%;
+  }
+
+  .EduProg__descFrame {
+    padding-top: 2%;
+  }
+
+  /* modifying the footer elements */
+  .Footer {
+    flex-direction: column;
+    height: 100%;
+    margin-top: 5%;
+  }
+
+  .Contact {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+  .Contact__header {
+    width: 50%;
+  }
+
+  .SiteFooter {
+    width: 100%;
+    height: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .Education__contentFrame {
+    height: 100%;
+  }
+
+
+  .EcommJobs {
+    flex-direction: column;
+    height: 100%;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
+  }
+
+  .EcommJobs__jobFrame {
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 100%;
+    justify-content: space-around;
+    padding-top: 5%;
+
+  }
+
+  .viewmore__programming {
+    overflow-y: scroll;
+    overflow-x:visible;
+    width: 100%;
+    /* flex-wrap: wrap */
+  }
+
+  .programming__container {
+    padding-top: 15%;
+  }
+
+  .EcommJobs__rule {
+    display: none;
+  }
+
+  .header__iconContainer {
+    margin-left: 67.5%;
+  }
+
+  .header__intro {
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  .header {
+    margin-bottom: 2%;
+  }
+
+  /* modfiying the epic view more page */
+  .viewmore__banner {
+    background-position: top;
+  }
+
+  .titleContainer__name {
+    font-size: 3.5rem;
+  }
+
+  .titleContainer__title {
+    font-size: 1.8rem;
+    width: 50%;
+  }
+
+  .viewmore__sectionContainer {
+    /* border: 2px solid red; */
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 30%;
+  }
+
+  .viewmore__rule {
+    height: 1px;
+    width: 95%;
+    border: 1.5px dashed black;
+    margin-bottom: 7.5%;
+    margin-top: 7.5%;
+  }
+
+  .sectionContainer__technical {
+    width: 95%;
+  }
+
+  .sectionContainer__ownership {
+    width: 95%;
+  }
+
+  /*  modifying the VISA view more section */
+
+  .viewMore__details {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .descGrouper__unlist li {
+    padding-top: 1.25%;
+  }
+
+  .viewMore__visa {
+    position: relative;
+    
+  }
+
+  .comingSoon__title {
+    text-align: center;
+  }
+
+  .viewMore__comingSoon {
+    margin-bottom: 5%;
+  }
+
+}
+
+/*  modifies the view more visa page for when a monitor is inverted */
+@media screen and (min-height: 1000px) {
+  .viewMore__visa {
+    /* border: 2px solid red; */
+    padding-top: 32.5%;
+  }
+  .viewMore__comingSoon p {
+    padding-bottom: 2%;
+  }
+}
+
+
+
+/* hides the viewmore banner at sizes smaller than 750px becuase, honesntly, at that point it isn't really needed. */
+@media screen and (max-width: 750px) {
+  .viewmore__banner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  /* .header__iconContainer {
+    margin-left: 70%;
+  }
+
+  .header__intro {
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+
+  .header {
+    margin-bottom: 2%;
+  } */
+
+  .jobsHeader__areaContainer {
+    height: 50%;
+  }
+
+  .Contact {
+    height: 80%;
+  }
+
+  .Contact__header {
+    padding-left: 0%;
+    width: 50%;
+  }
+
+  .WorkExp__header {
+    text-align: center;
+  }
+
+  .EduMrkt__header {
+    padding-bottom: 2%;
+  }
+
+  .EduProg__header {
+    padding-bottom: 2%;
+  }
+
+  .viewMore__comingSoon {
+    margin-bottom: 12.5%;
+  }
+
+  .Contact__header {
+    font-size: 1.5rem;
+  }
+
+  .jobsHeader {
+    padding-top: 5%;
+    padding-bottom: 6%;
+  }
+
+  .Education__header {
+    padding-top: 4%;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+
+
+  .header__iconContainer {
+    display: none;
+  }
+
+
+
+  .jobsHeader__areaContainer {
+    justify-content: space-around;
+  }
+
+
+  .Education {
+    justify-content: space-around;
+    height: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .contentFrame__rule {
+    display: none;
+  }
+
+
+  .EduMrkt__courseFrame {
+    display: none;
+  }
+
+
+  .EduMrkt__descFrame {
+    width: 95%;
+    padding-top: 2%;
+  }
+
+  .EduMrkt__minorFrame {
+    height: 45%;
+    padding-top: 6%;
+  }
+
+  .minorFrame__title {
+    padding-bottom: 3%;
+  }
+
+  .minorFrame__minor {
+    padding-top: 3%;
+  }
+
+  .EduProg__courseFrame {
+    display: none;
+  }
+
+  .EduProg__descFrame {
+    width: 95%;
+  }
+
+  .descFrame__progDesc {
+    width: 95%;
+  }
+
+  .EduProg__minorFrame {
+    height: 45%;
+  }
+
+  .descFrame__rule {
+    display: none;
+  }
+
+  .descFrame__unlist {
+    display: none;
+  }
+
+  .viewmore__media {
+    height: 100%;
+  }
+
+  .areaContainer__button {
+    width: 400px;
+  }
+
+  .welcome__title {
+    text-align: center;
+  }
+
+  .NotifBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+  }
+
+  .welcome__entryButton {
+    width: 350px;
+  }
+
+  .viewmore__sectionContainer {
+    margin-bottom: 37.5%;
+    padding-top: 5%;
+  }
+
+  .return__button {
+    width: 375px;
+  }
+
+  .viewMore__comingSoon {
+    margin-bottom: 17.5%;
+  }
+
+  .Trademark p {
+    font-size: 2.25rem;
+    text-align: center;
+  }
+
+}
