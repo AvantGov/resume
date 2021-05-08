@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">  
       <Route exact path='/'>
-        <NotifBanner />
+        {/* <NotifBanner /> */}
         <Welcome />
       </Route>
 
