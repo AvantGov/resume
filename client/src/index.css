@@ -1199,6 +1199,12 @@ h2 {
   flex-direction: column;
 }
 
+/* *hot fix for the programming banner not being visible at full width* */
+@media screen and (min-width: 1200px) {
+  .viewmore__programming {
+    justify-content: space-around;
+  }
+}
 
 .container__libContainer {
   height: 55%;
