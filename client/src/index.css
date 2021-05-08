@@ -351,6 +351,7 @@ h2 {
 
 .button__text {
   text-decoration: none;
+  font-size: 2.5rem;
 }
 
 
@@ -597,7 +598,7 @@ h2 {
 }
 
 .viewmore__return {
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: #508D6A;
   display: flex;
@@ -605,11 +606,12 @@ h2 {
   align-items: center;
   position: fixed;
   bottom: 0;
+  font-size: 2rem;
 }
 
 .viewmore__returnEpic {
   margin-top: 4%;
-  height: 150px;
+  height: 100px;
   width: 100%;
   background-color: #508D6A;
   display: flex;
@@ -617,6 +619,7 @@ h2 {
   align-items: center;
   position: fixed;
   bottom: 0;
+  font-size: 2rem;
 }
 
 .return__button {
@@ -1006,7 +1009,7 @@ h2 {
 
 .Contact__header {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .Contact__frame {
@@ -1111,7 +1114,6 @@ h2 {
 /* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
 .EcommJobs {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
@@ -1194,8 +1196,8 @@ h2 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
+
 
 .container__libContainer {
   height: 55%;
@@ -1207,8 +1209,16 @@ h2 {
   font-size: 3rem;
 }
 
+.media__container {
+  padding-top: 10%;
+}
+
 .media__container h2 {
   font-size: 3rem;
+}
+
+.ecomm__container {
+  padding-top: 10%;
 }
 
 .ecomm__container h2 {
@@ -1241,7 +1251,7 @@ h2 {
   height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  overflow-y: scroll;
 }
 
 .viewmore__media p {
@@ -1262,6 +1272,7 @@ h2 {
 }
 
 
+
 .container__linkName {
   margin-top: 1%;
 }
@@ -1272,10 +1283,10 @@ h2 {
 }
 
 .viewmore__ecomm {
-  height: 40vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  overflow-y: scroll;
 }
 
 .viewmore__ecomm p {
@@ -1454,15 +1465,29 @@ h2 {
 
   .EcommJobs {
     flex-direction: column;
-    justify-content: space-around;
     height: 100%;
+    overflow-y: scroll;
+    /* border: 2px solid red; */
   }
 
   .EcommJobs__jobFrame {
     /* border: 2px solid red; */
     width: 95%;
-    height: 40%;
+    height: 100%;
     justify-content: space-around;
+    padding-top: 5%;
+
+  }
+
+  .viewmore__programming {
+    overflow-y: scroll;
+    overflow-x:visible;
+    width: 100%;
+    /* flex-wrap: wrap */
+  }
+
+  .programming__container {
+    padding-top: 15%;
   }
 
   .EcommJobs__rule {
@@ -1609,7 +1634,16 @@ h2 {
   }
 
   .Contact__header {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .jobsHeader {
+    padding-top: 5%;
+    padding-bottom: 6%;
+  }
+
+  .Education__header {
+    padding-top: 4%;
   }
 
 }
@@ -1722,11 +1756,12 @@ h2 {
   }
 
   .viewMore__comingSoon {
-    margin-bottom: 27.5%;
+    margin-bottom: 17.5%;
   }
 
   .Trademark p {
     font-size: 2.25rem;
     text-align: center;
   }
+
 }

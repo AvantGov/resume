@@ -8,7 +8,7 @@ const Skills__Programming = () => {
         <div className='viewmore__programming'>
             {skills.skills__programming.map((item) => {
                 return(
-                    <div className='programming__container' key={item.name}>
+                    <div className='programming__container' key={item.name} id={item.name}>
                         <h2 className='container__header'>{item.name}</h2>
                         {/* implement function for rendering icons */}
                         <p className='container__desc'>{item.description}</p>
