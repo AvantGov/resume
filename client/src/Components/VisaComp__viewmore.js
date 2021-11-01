@@ -63,13 +63,13 @@ const VisaComp__viewmore = () => {
                 </div>
             </div> */}
 
-            <div className='viewMore__comingSoon'>
+            {/* <div className='viewMore__comingSoon'>
                 <a href='https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard' target="_blank" rel="noopener noreferrer">
                     <h1 className='comingSoon__title'>Reporting Dashboard Internship Project</h1>
                 </a>
                 <p className=''>*coming soon: behance API integration*</p>
                 
-            </div>
+            </div> */}
             
             <div className='viewmore__return'>
                     <Link className='return__Link' to="/about">

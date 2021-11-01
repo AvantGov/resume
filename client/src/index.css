@@ -155,14 +155,14 @@ Html {
 h1 {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 6rem;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 3.5rem;
   line-height: 130%;
-  color: #595e4a;
+  color: #e33d26;
 }
 
 /* *HEADER COMPONENT STYLING* */
@@ -181,7 +181,7 @@ h2 {
   margin-left: 3%;
   position: absolute;
   background-color: #ffffff;
-  border: 1px solid #6b7a65;
+  border: 1px solid #c4e4ec;
   /* opacity: 900%; */
   border-radius: 100px;
   display: flex;
@@ -210,7 +210,7 @@ h2 {
 .imgContainer__img {
   height: 98%;
   width: 99%;
-  background-image: url("./assets/inertia/1.jpg");
+  background-image: url("./assets/seattle_apartment.jpg");
   background-position: center 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ h2 {
   font-weight: 750;
   font-size: 1.3rem;
   text-decoration: none;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 .epicComp a:hover {
@@ -314,7 +314,7 @@ h2 {
   font-weight: 750;
   font-size: 1.3rem;
   text-decoration: none;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 .visaComp a:hover {
@@ -324,7 +324,7 @@ h2 {
 
 /*  * VIEW MORE PAGES BANNER STYLING * */
 .viewmore__banner {
-  background-image: url("./assets/inertia/1.jpg");
+  background-image: url("./assets/seattle_apartment.jpg");
   background-position: top;
   height: 20%;
   width: 100%;
@@ -360,7 +360,7 @@ h2 {
 .welcome {
   height: 100vh;
   width: 100%;
-  background-image: url("./assets/inertia/1.jpg");
+  background-image: url("./assets/seattle_apartment.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -369,9 +369,13 @@ h2 {
   align-items: center;
 }
 
+/* hot fix for welcome banner color */
+.welcome h1 {
+  color: #c4e4ec;
+}
 
 .welcome__entryButton {
-  border: 3px solid #595E4A;
+  border: 3px solid #e33d26;
   background-color: #ffffff;
   width: 450px;
   height: 70px;
@@ -383,7 +387,7 @@ h2 {
 }
 
 .welcome__entryButton:hover {
-  background-color: #508D6A;
+  background-color: #263c6d;
   border: 4px solid white;
 }
 
@@ -406,7 +410,7 @@ h2 {
   margin-top: 1%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -420,7 +424,7 @@ h2 {
 .skillsHeader__areaContainer {
   /* border: 2px solid blue; */
   margin-top: 1%;
-  height: 40%;
+  height: 50%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -439,12 +443,12 @@ h2 {
 }
 
 .areaContainer__button:hover {
-  background-color: #508D6A;
+  background-color: #263c6d;
   border: 2px solid white;
 }
 
 .areaContainer__button h2 {
-  color: #508D6A;
+  color: #263c6d;
 }
 
 .areaContainer__button:hover h2 {
@@ -469,7 +473,7 @@ h2 {
   width: 100%;
   height: 22.5vh;
   text-align: center;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -546,6 +550,7 @@ h2 {
 
 .viewMore__intro h1 {
   font-size: 4rem;
+  padding-bottom: 1%;
 }
 
 .viewMore__intro h2 {
@@ -601,7 +606,7 @@ h2 {
 .viewmore__return {
   height: 100px;
   width: 100%;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -614,7 +619,7 @@ h2 {
   margin-top: 4%;
   height: 100px;
   width: 100%;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -635,12 +640,12 @@ h2 {
 }
 
 .return__button:hover {
-  background-color: #508D6A;
+  background-color: #263c6d;
   border: 2px solid white;
 }
 
 .return__button h2 {
-  color: #508D6A;
+  color: #263c6d;
 }
 
 .return__button:hover h2 {
@@ -660,7 +665,7 @@ h2 {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: #6b7a65;
+  background-color: #c4e4ec;
 }
 
 .viewMore__comingSoon h1 {
@@ -989,7 +994,7 @@ h2 {
 /*  *STYLING SUPPORT FOR CONTACT AND FOOTER SECTIONS* */
 .Footer {
   /* border: 2px solid red; */
-  border-top: 1px dashed #508d6a;
+  border-top: 1px dashed #263c6d;
   height: 100%;
   width: 100%;
   display: flex;
@@ -1032,7 +1037,7 @@ h2 {
   /* border: 2px solid green; */
   width: 60%;
   height: 100%;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1075,7 +1080,7 @@ h2 {
 }
 
 .frame__unlist li a {
-  color: #508d6a;
+  color: #263c6d;
 }
 
 
@@ -1083,7 +1088,7 @@ h2 {
 /* * TRADEMARK STYLING SUPPORT * */
 
 .Trademark {
-  border-top: 1px dashed #508d6a;
+  border-top: 1px dashed #263c6d;
   width: 100%;
   height: 10vh;
   display: flex;
@@ -1094,7 +1099,7 @@ h2 {
 .Trademark p {
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 2.75rem;
-  color: #508d6a;
+  color: #263c6d;
   font-weight: 500;
   text-align: center;
 }
@@ -1102,15 +1107,15 @@ h2 {
 /*  *SOME GENERAL POP UP FRAMEWORK STYLINF SUPPORT* */
 .inner__closeBtn {
   border-radius: 25px;
-  color: #508d6a;
+  color: #263c6d;
   background-color: #ffffff;
-  border: 2px solid #508d6a;
+  border: 2px solid #263c6d;
 }
 
 .inner__closeBtn:hover {
   color: #ffffff;
-  background-color: #508d6a;
-  border: 2px solid #595E4A;
+  background-color: #263c6d;
+  border: 2px solid #e33d26;
 }
 
 /* *STYLING SUPPORT FOR ECOMM POSITION POP UP * */
@@ -1185,7 +1190,7 @@ h2 {
 .NotifBanner {
   height: 16vh;
   width: 100%;
-  background-color: #508D6A;
+  background-color: #263c6d;
   display: flex;
   /* flex-direction: column; */
   align-items: center;
@@ -1267,7 +1272,7 @@ h2 {
 .programming__container a {
   text-decoration: none;
   font-weight: 750;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 .programming__container a:hover {
@@ -1296,7 +1301,7 @@ h2 {
 .viewmore__media a {
   text-decoration: none;
   font-weight: 750;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 .viewmore__media a:hover {
@@ -1332,7 +1337,7 @@ h2 {
 .viewmore__ecomm a {
   text-decoration: none;
   font-weight: 750;
-  color: #508d6a;
+  color: #263c6d;
 }
 
 .viewmore__ecomm a:hover {
@@ -1365,8 +1370,7 @@ h2 {
 
 /* *MEDIA QUERIES FOR RESPONSIVE CONSIDERATION* */
 
-@media screen and (max-width: 1230px) {
-  
+@media screen and (max-width: 1510px) {
   /* turn skills button to column */
   .skillsHeader__areaContainer {
     /* border: 2px solid black; */
@@ -1376,7 +1380,13 @@ h2 {
     height: 110%;
     padding-bottom: 1%;
   }
+  .areaContainer__button {
+    margin-bottom: 1%;
+  }
+}
 
+@media screen and (max-width: 1230px) {
+  
   .areaContainer__button {
     margin-top: 1.5%;
   }
@@ -1548,6 +1558,7 @@ h2 {
 
   .titleContainer__name {
     font-size: 3.5rem;
+    color: #c4e4ec;
   }
 
   .titleContainer__title {
@@ -1638,6 +1649,10 @@ h2 {
     margin-bottom: 2%;
   } */
 
+  .header__iconContainer {
+    display: none;
+  }
+
   .jobsHeader__areaContainer {
     height: 50%;
   }
@@ -1683,14 +1698,6 @@ h2 {
 }
 
 @media screen and (max-width: 650px) {
-
-
-
-  .header__iconContainer {
-    display: none;
-  }
-
-
 
   .jobsHeader__areaContainer {
     justify-content: space-around;
@@ -1766,6 +1773,7 @@ h2 {
   .welcome__title {
     text-align: center;
   }
+
 
   .NotifBanner {
     display: flex;

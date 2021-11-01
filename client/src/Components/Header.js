@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <div className="header__intro">
                 <h1 className='intro__name'>Alex Couts</h1>
-                <h2 className='intro__title'>Javascript Web Dev specializing in ReactJS</h2>
+                <h2 className='intro__title'>Javascript Web Dev & Digital Media Specialist</h2>
                     <br />
                 <p className='intro__bio'>Leveraging technical skills learned through adolescence, and a repertoire of advanced analytic tactics developed while earning a BBA in Marketing Communication Strategy, I have filled a variety of eCommerce specialist roles in, and after undergrad. These roles ranging from product listing coordination, to graphic design, and ending with transaction authentication security. These experiences perpetuated my interest in further technical roles, catalyzing a course of post-graduate learning; currently as a Quality Assurance Manager on the MyChart Framework & Interoperability team.</p>
                     <br />

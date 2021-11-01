@@ -2,7 +2,7 @@ import './App.css';
 
 import Header from './Components/Header';
 import WorkExp from "./Components/WorkExp";
-import NotifBanner from './Components/framework/NotifBanner';
+// import NotifBanner from './Components/framework/NotifBanner';
 import EpicComp__viewmore from './Components/EpicComp__viewmore';
 import VisaComp__viewmore from './Components/VisaComp__viewmore';
 import Viewmore__banner from './Components/Viewmore__banner';
