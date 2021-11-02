@@ -491,13 +491,12 @@ h2 {
 .jobsHeader__areaContainer {
   /* border: 2px solid blue; */
   margin-top: 1%;
-  height: 40%;
+  height: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
-  padding-top: 2%;
 }
 
 
@@ -1666,6 +1665,7 @@ h2 {
 
   .jobsHeader__areaContainer {
     height: 50%;
+    padding-top: 2%;
   }
 
   .Contact {
