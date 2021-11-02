@@ -189,6 +189,10 @@ h2 {
   justify-content: center;
 }
 
+.header__iconContainer_mobile {
+  display: none;
+}
+
 .iconContainer__img {
   height: 90%;
   width: 90%;
@@ -491,6 +495,9 @@ h2 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding-top: 2%;
 }
 
 
@@ -985,7 +992,7 @@ h2 {
 }
 
 .Education__rule {
-  border: 2px solid black;
+  border: 2px solid grey;
   /* opacity: 30%; */
   width: 1px;
   height: 500px;
@@ -1102,6 +1109,10 @@ h2 {
   color: #263c6d;
   font-weight: 500;
   text-align: center;
+}
+
+.Trademark__text_mobile {
+  display: none;
 }
 
 /*  *SOME GENERAL POP UP FRAMEWORK STYLINF SUPPORT* */
@@ -1458,7 +1469,7 @@ h2 {
   .Education__rule {
     height: 0px;
     width: 95%;
-    border: dashed;
+    border: 2px dashed #e4dce4;
   }
 
   .EduMrkt {
@@ -1804,6 +1815,79 @@ h2 {
   .Trademark p {
     font-size: 2.25rem;
     text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .areaContainer__button {
+    width: 90%;
+  }
+
+  .WorkExp__header {
+    font-size: 4.5rem;
+  }
+
+  .jobsHeader__title {
+    font-size: 4.5rem;
+  }
+
+  .Education__header {
+    font-size: 4.5rem;
+  }
+
+  .EduMrkt__header {
+    font-size: 3rem;
+  }
+
+  .EduProg__header {
+    font-size: 3rem;
+  }
+
+  .Trademark__text {
+    display: none;
+  }
+
+  .Trademark__text_mobile {
+    display: block;
+  }
+
+  .imgContainer__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__iconContainer_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: 2px solid #e33d26;
+    box-sizing: border-box;
+  }
+
+  .iconContainer__img_mobile {
+    background-image: url("./assets/alex.jpeg");
+    height: 90%;
+    width: 90%;
+    border-radius: 100px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #FFFFFF;
+  }
+
+  .ownership__title {
+    padding-bottom: 2%;
+  }
+
+  .technical__title {
+    padding-bottom: 2%;
   }
 
 }
