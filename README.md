@@ -72,6 +72,7 @@
 - truncate header paragraph and implement "read more" popup on /About page 
 - implement behance API integration
 - project gallery with behance page embed
+- add image back but centered on the header image when on mobile views 
 
 # Fix List 
 - responsive issue @ 1512px on techical skills section on /About page 
@@ -87,3 +88,11 @@
 - update header image, as well as branding colors on the site. \
     - resolved
 
+- side scrolling issue on mobile device due to button lengths 
+    - resolved
+
+- hide part of the barcode logo at the bottom of the page on mobile devices 
+    - resolved
+
+- on ipad, the 1000px view is causing for a huge gap in the top section, however this was implemented as a part of the fix for mobile views being rotated so I think I am going to leave it for now. 
+    - low priority issue, uncommon use case. 

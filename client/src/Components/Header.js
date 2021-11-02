@@ -6,8 +6,11 @@ const Header = () => {
     return (
         <div className="header">
             <div className="header__imgContainer">
-                <div className="imgContainer__img"></div>
-                {/* <img src={require('../assets/inertia/1.jpg')} alt='header image' /> */}
+                <div className="imgContainer__img">
+                    <div className="header__iconContainer_mobile">
+                        <div className="iconContainer__img_mobile"></div>
+                    </div>
+                </div>
             </div>
             <div className="header__iconContainer">
                 <div className="iconContainer__img"></div>
