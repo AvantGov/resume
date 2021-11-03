@@ -1144,6 +1144,7 @@ h2 {
 .EcommJobs {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 @media screen and (max-height: 750px) {
@@ -1174,7 +1175,7 @@ h2 {
 .EcommJobs__rule {
   width: 1px;
   height: 700px;
-  border: 2px solid black;
+  border: 1px dashed #e4dce4;
   /* opacity: 30%; */
 }
 
@@ -1462,7 +1463,6 @@ h2 {
     flex-direction: column;
     align-items: center;
     height: 100%;
-
   }
 
   .Education__header {
