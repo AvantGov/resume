@@ -96,3 +96,5 @@
 
 - on ipad, the 1000px view is causing for a huge gap in the top section, however this was implemented as a part of the fix for mobile views being rotated so I think I am going to leave it for now. 
     - low priority issue, uncommon use case. 
+
+
