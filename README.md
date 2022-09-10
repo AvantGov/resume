@@ -2,7 +2,7 @@
     Landing Page (/)
         Route: /About
 
-    /About
+    /About 
     Header
     
     Skills Header
