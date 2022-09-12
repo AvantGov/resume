@@ -1,7 +1,11 @@
+// * DEPENDS.
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SiteFooter = () => {
+// * CSS
+import "../CSS/SiteMap.css"
+
+const SiteMap = () => {
 
     return(
         <div className='SiteFooter'>
@@ -24,4 +28,4 @@ const SiteFooter = () => {
 };
 
 
-export default SiteFooter;
+export default SiteMap;

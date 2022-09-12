@@ -1,6 +1,6 @@
 import React from 'react';
 import EduMrkt from './EduMrkt';
-import EduProg from './EduProg';
+import EduProg from '../EduProg';
 
 const Education = () => {
 

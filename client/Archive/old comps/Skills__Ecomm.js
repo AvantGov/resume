@@ -1,5 +1,5 @@
 import React from "react";
-import skills from "../assets/data/skills";
+import skills from "../../assets/data/skills";
 
 const Skills__Ecomm = () => {
 //   console.log("it's dangerous to go alone, take this with you!:", skills.skills__ecomm);

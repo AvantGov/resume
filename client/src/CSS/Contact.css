@@ -1,0 +1,31 @@
+.Contact {
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3% 0 3% 3%;
+}
+
+.Contact__header {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.Contact__frame {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.frame__unlist li {
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.75rem;
+    font-size: 1.2rem;
+}
+
+.unlist__item a {
+    text-decoration: none;
+}

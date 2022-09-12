@@ -1,0 +1,23 @@
+/* *APP STYLING* */
+.App {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  h1 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 6rem;
+	font-weight: 1000;
+	letter-spacing: 1.5px;
+	color: #263c6d;
+  }
+  
+  h2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 3.5rem;
+	font-weight: 400;
+	line-height: 130%;
+	color: #e33d26;
+  }

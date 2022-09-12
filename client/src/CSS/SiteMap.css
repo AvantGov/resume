@@ -1,0 +1,56 @@
+/*  *STYLING SUPPORT FOR CONTACT AND FOOTER SECTIONS* */
+  .SiteFooter {
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+    background-color: #263c6d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 0 3% 2.5%;
+  }
+  
+  .SiteFooter__header {
+    color: white;
+    font-size: 2.5rem;
+    padding-left: 2%;
+    padding-top: 4%;
+  }
+  
+  .SiteFooter__Link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+  
+  }
+  
+  .SiteFooter__unlist {
+    padding-bottom: 5%;
+    padding-top: 1%;
+  }
+  
+  .SiteFooter__unlist li {
+    padding-left: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2.15rem;
+  }
+  
+  .SiteFooter__unlist li:hover {
+    padding-left: 7.5%;
+    font-weight: 1000;
+    text-decoration: underline;
+  }
+  
+  
+  .unlist__item:hover {
+    font-weight: 500;
+  }
+  
+  .frame__unlist li:hover {
+    padding-left: 7.5%;
+    text-decoration: underline;
+  }
+  
+  .frame__unlist li a {
+    color: #263c6d;
+  }

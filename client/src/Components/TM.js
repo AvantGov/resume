@@ -1,4 +1,8 @@
+// * DEPENDS
 import React from 'react';
+
+// * CSS 
+import "../CSS/Trademark.css"
 
 const TM = () => {
 

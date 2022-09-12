@@ -1,0 +1,44 @@
+
+/*  * WELCOME SCREEN STYLING * */
+.welcome {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/seattle_apartment.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* hot fix for welcome banner color */
+  .welcome h1 {
+    color: #c4e4ec;
+  }
+  
+  .welcome__entryButton {
+    border: 3px solid #e33d26;
+    background-color: #ffffff;
+    width: 450px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  .welcome__entryButton:hover {
+    background-color: #263c6d;
+    border: 4px solid white;
+  }
+  
+  .welcome__entryButton:hover h2 {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .welcome__Link {
+    text-decoration: none;
+  }

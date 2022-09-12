@@ -1,5 +1,8 @@
+// * DEPENDS
 import React from 'react';
 
+// * CSS 
+import '../CSS/Contact.css'
 
 const Contact = () => {
 
