@@ -6,13 +6,16 @@ import { Route } from 'react-router-dom';
 import Popup from './Components/framework/popup'
  
 // * COMPS
-  // * /~
-  import Welcome from './Components/Welcome';
+  // * frame
+  import Footer from './Components/Footer';
+  import TM from './Components/TM';
 
-  // * /home
+
+  // * ~/
   import Header from './Components/Home/Header';
-import Footer from './Components/Footer';
-import TM from './Components/TM';
+  import SkillsList from './Components/Home/SkillList';
+  import Experience from './Components/Home/Experience';
+
 
 // * CSS 
 import './CSS/App.css';
@@ -46,6 +49,8 @@ function App() {
 
       <Route exact path='/'>
         <Header />
+        <SkillsList />
+        <Experience />
       </Route>
 
       <Route path="/">

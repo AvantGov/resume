@@ -45,12 +45,17 @@
   }
   
   .imgContainer__img {
-    height: 98%;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     background-image: url("../../assets/seattle_apartment.jpg");
     background-position: center 20%;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 3s ease-in-out
+  }
+
+  .imgContainer__img:hover {
+    background-position: 55% 18%;
   }
   
   .header__intro {
