@@ -18,7 +18,7 @@ const SkillList = () => {
             {
                 arr_skills.map((item) => {
                     return (
-                        <Link to={`/${item}`} key={item} className="SkillList__link" id={item}>{item} &#8674;</Link>
+                        <Link to={`/skill/${item}`} key={item} className="SkillList__link" id={item}>{item} &#8674;</Link>
                     )
                 })
             }

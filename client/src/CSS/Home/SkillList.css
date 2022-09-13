@@ -18,7 +18,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 1000;
     padding: 5% 0 5% 0;
-    border-bottom: 2px dashed #ffffff;
+    border-bottom: 2px solid #ffffff;
     background: rgb(255,255,255);
     opacity: 70%;
     background: -moz-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);

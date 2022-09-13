@@ -16,11 +16,39 @@ import Popup from './Components/framework/popup'
   import SkillsList from './Components/Home/SkillList';
   import Experience from './Components/Home/Experience';
 
+  // * /skills
+  import ListFrame from "./Components/SubDir/ListFrame";
+
+  // * /skills/{item} ??
+
 
 // * CSS 
 import './CSS/App.css';
 
 function App() {
+
+
+  return (
+    <div className="App">  
+      <Route exact path='/'>
+        <Header />
+        <SkillsList />
+        <Experience />
+      </Route>
+      <Route path="/skill">
+        <ListFrame />
+      </Route>
+      <Route path="/">
+        <Footer />
+        <TM />
+      </Route>
+
+
+    </div>
+  );
+}
+
+export default App;
 
   // ! data control
   // const [showProgramming, setShowProgramming] = useState(false);
@@ -41,38 +69,7 @@ function App() {
   // }
   // !
 
-  return (
-    <div className="App">  
-      {/* <Route exact path='/'>
-        <Welcome />
-      </Route> */}
-
-      <Route exact path='/'>
-        <Header />
-        <SkillsList />
-        <Experience />
-      </Route>
-
-      <Route path="/">
-        <Footer />
-        <TM />
-      </Route>
-
-      {/* // ! pop ups */}
-      {/* <Popup trigger={showProgramming} setTrigger={setShowProgramming} >
-        <Skills__Programming />
-      </Popup>
-
-      <Popup trigger={showMedia} setTrigger={setShowMedia}>
-          <Skills__Media />
-      </Popup>      
-      
-      <Popup trigger={showEcomm} setTrigger={setShowEcomm}>
-          <Skills__Ecomm />
-      </Popup> */}
-      {/* // ! */}
-
-      {/* // ! pop ups */}
+        {/* // ! pop ups */}
       {/* <Popup trigger={showEcommExp} setTrigger={setShowEcommExp}>
         <EcommJobs />
       </Popup>
@@ -81,9 +78,3 @@ function App() {
         <EntertainJobs />
       </Popup> */}
       {/* // ! */}
-
-    </div>
-  );
-}
-
-export default App;
