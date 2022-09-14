@@ -21,7 +21,7 @@ export const projects = {
             title: 'History Kit Visualizer (WIP)',
             desc: 'in-browser, interactive visualizer for deeper engagement with music',
             URL: 'https://newclub-dosssi0o6-avantgov.vercel.app/',
-            photo: "/photo_subdir/AC.png",
+            photo: "/photo_subdir/HK_vis.png",
             year: "2022"
         }
     ],
@@ -32,7 +32,7 @@ export const projects = {
             title: 'HarborLights Event Promo',
             desc: 'promotional design for Tone Zone DIY space.',
             URL: 'https://www.behance.net/gallery/76482887/DIY-Midwest-Show-Promo',
-            photo: "",
+            photo: "/photo_subdir/HL.jpg",
             year: "2019"
         },
         {
@@ -59,7 +59,7 @@ export const projects = {
             title: 'Inertia',
             desc: 'experiments on the fringes of light and motion.',
             URL: 'https://www.behance.net/gallery/65202139/Inertia-Ashton',
-            photo: "",
+            photo: "/photo_subdir/inertia.jpg",
             year: "2018-2021"
         },
         {

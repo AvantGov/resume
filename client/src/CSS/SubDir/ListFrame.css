@@ -9,3 +9,9 @@
     background-color: #e33d26;
     opacity: 85%;
 }
+
+.ListFrame__title {
+    color: #ffffff;
+    margin: 1% 0 2% 1%;
+    text-decoration: underline;
+}
