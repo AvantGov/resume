@@ -1,6 +1,11 @@
 .ListFrame {
     height: 100%;
     width: 100%;
-    padding-top: 50%;
-    border: 2px solid red;
+    padding-bottom: 50%;
+    background: -moz-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
+    background: -webkit-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
+    background: linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#263c6d",GradientType=1);
+    background-color: #e33d26;
+    opacity: 85%;
 }
