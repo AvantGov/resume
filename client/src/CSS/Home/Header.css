@@ -81,3 +81,45 @@
   .header__intro h2 {
     padding-top: 1%;
   }
+
+  @media only screen and (max-width: 1500px) {
+    .header__iconContainer {
+      display: none;
+    }
+    .header__intro {
+      width: 90%;
+      padding-left: 7%;
+      margin-bottom: 3%;
+    }
+    .intro__name {
+      font-size: 4rem;
+    }
+    .intro__title {
+      font-size: 2.5rem;
+      width: 100%;
+    }
+    .header__iconContainer_mobile {
+      display: block;
+      height: 160px;
+      width: 160px;
+      background-color: #ffffff;
+      border-radius: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .iconContainer__img_mobile {
+      background-image: url("../../assets/me.jpg");
+      height: 130px;
+      width: 130px;
+      border-radius: 120px;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0px 0.9px 5px 2px #263c6d;
+    }
+    .imgContainer__img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }

@@ -7,7 +7,7 @@ import "../../CSS/Home/WorkList.css"
 const WorkList = () => {
 
     return (
-        <a className='WorkList__link' href="https://www.linkedin.com/in/alex-c-329721109" target="_blank" rel="referrer noopener">
+        <a className='WorkList__link' href="https://www.linkedin.com/in/alex-c-329721109" target="_blank" rel="noreferrer noopener">
             see employment history on linkedin &#8674;
         </a>
     )

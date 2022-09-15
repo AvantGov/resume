@@ -8,3 +8,9 @@
 #Des004 {
     margin-top: -20%;
 }
+
+@media only screen and (max-width: 700px) {
+    #Des004 {
+        margin-top: 2%;
+    }
+}

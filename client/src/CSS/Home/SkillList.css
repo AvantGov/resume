@@ -30,4 +30,21 @@
 .SkillList__link:hover {
     background-color: #e33d26;
     opacity: 90%;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+    .SkillList__link {
+        font-size: 4rem;
+        padding: 25% 0 25% 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .SkillList__link {
+        font-size: 2rem;
+    }
+    .SkillList {
+        margin-bottom: 3%;
+    }
 }

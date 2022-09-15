@@ -17,7 +17,7 @@ const Development = () => {
                 return(
                     <a className="cardlink" target="_blank" rel="nopenner noreferrer" href={item.URL} key={item.key}>
                         <div className="card">
-                            <img src={item.photo} className="card__photo" id={`photo_${item.key}`} />
+                            <img src={item.photo} className="card__photo" id={`photo_${item.key}`} alt="development sample" />
                             <h2 className="card__title">{item.title}</h2>
                             <p className="card__desc">{item.desc}</p>
                             <p className="card__year">{item.year}</p>

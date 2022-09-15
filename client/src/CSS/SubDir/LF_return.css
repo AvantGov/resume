@@ -17,8 +17,3 @@
     opacity: 80%;
     background-color: #263c6d;
 }
-
-.LF_return:hover > a {
-    font-weight: 600;
-    text-decoration: underline;
-}

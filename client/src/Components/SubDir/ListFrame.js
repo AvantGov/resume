@@ -1,6 +1,6 @@
 // * DEPENDS.
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 // COMPS. (lists)
 import Development from './Development.js';
@@ -26,7 +26,7 @@ const ListFrame = () => {
             </Route>
 
             <Route path="/skill/Photo">
-                <h1 className='ListFrame__title'>Photography</h1>
+                <h1 className='ListFrame__title'>Photo</h1>
                 <Photo />
             </Route>
 

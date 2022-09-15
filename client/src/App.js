@@ -1,9 +1,9 @@
 // * DEPENDS.
-import React, { useState } from 'react';
+import React from 'react';
 import { Route } from 'react-router-dom';
 
 // * MODALS 
-import Popup from './Components/framework/popup'
+// import Popup from './Components/framework/popup'
  
 // * COMPS
   // * frame

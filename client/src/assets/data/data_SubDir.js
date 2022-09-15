@@ -83,7 +83,7 @@ export const projects = {
             title: 'Joyd Parker Promotional Video',
             desc: 'social-media oriented video for teasing new content.',
             URL: 'https://www.behance.net/gallery/76662317/Promotional-Video-Joyd-Parker-Winter-2019',
-            photo: "/photo_subdir/JP.jpg",
+            photo: "/photo_subdir/JP_video.png",
             year: "2019"
         },
         // {

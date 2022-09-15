@@ -146,3 +146,59 @@
     padding-left: 2%;
     padding-bottom: 2%;
 }
+
+@media only screen and (max-width: 1500px) {
+    .Edu {
+        flex-direction: column;
+        padding-left: 3%;
+    }
+    .EduProg {
+        width: 90%;
+    }
+
+    .EduCert {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .EduMrkt__contentFrame {
+        flex-direction: column;
+        width: 90%;
+    }
+    .EduMrkt__descFrame {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .EduMrkt__minorFrame {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .EduProg__header {
+        font-size: 2rem;
+    }
+    .EduCert > div > h2 {
+        font-size: 2rem;
+    }
+    .EduCert > div > h3 {
+        font-size: 1.2rem;
+    }
+    .EduProg > div > h2 {
+        font-size: 2rem;
+    }
+    .EduProg > div > h3 {
+        font-size: 1.2rem;
+    }
+    .EduMrkt > div > h2 {
+        font-size: 2rem;
+    }
+    .EduMrkt > div > h3 {
+        font-size: 1.2rem;
+    }
+    .minorFrame__minor {
+        font-size: 1.4rem;
+    }
+}
+
