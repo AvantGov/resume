@@ -74,12 +74,11 @@
     color: #FFFFFF;
 }
 
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1250px) {
     .Development {
         flex-direction: column;
         align-items: center;
-    }
+    } 
     .card {
         width: 100%;
         margin: 3% 0 3% 0;

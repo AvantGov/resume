@@ -20,11 +20,8 @@
     padding: 5% 0 5% 0;
     border-bottom: 2px solid #ffffff;
     background: rgb(255,255,255);
-    opacity: 70%;
-    background: -moz-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
-    background: -webkit-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
+    background: rgb(255,255,255);
     background: linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#263c6d",GradientType=1);
 }
 
 .SkillList__link:hover {
@@ -32,6 +29,7 @@
     opacity: 90%;
     text-decoration: underline;
 }
+
 
 @media only screen and (max-width: 700px) {
     .SkillList__link {

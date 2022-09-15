@@ -6,3 +6,9 @@
     justify-content: space-around;
 }
 
+@media only screen and (max-width: 1250px) {
+    .Photo {
+        flex-direction: column;
+        align-items: center;
+    } 
+}

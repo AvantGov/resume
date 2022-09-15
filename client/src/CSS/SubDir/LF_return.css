@@ -9,11 +9,9 @@
     color: #FFFFFF;
     text-align: center;
     font-weight: 400;
-    opacity: 55%;
     background-color: #e33d26;
 }
 
 .LF_return:hover {
-    opacity: 80%;
     background-color: #263c6d;
 }
