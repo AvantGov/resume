@@ -29,6 +29,7 @@
     font-weight: 600;
     font-size: 2rem;
     padding-bottom: 2.5%;
+    color: #808080;
 }
 
 .descFrame__progDesc {
@@ -102,6 +103,7 @@
     font-weight: 600;
     font-size: 2rem;
     padding-bottom: 2.5%;
+    color: #808080;
 }
 
 .descFrame__desc {
@@ -124,6 +126,7 @@
     font-weight: 600;
     font-size: 2.5rem;
     padding: 0 0 1.5% 0;
+    color: #808080;
 }
 
 .minorFrame__minor {
@@ -196,6 +199,9 @@
     }
     .minorFrame__minor {
         font-size: 1.4rem;
+    }
+    .Edu__header {
+        font-size: 3.5rem;
     }
 }
 

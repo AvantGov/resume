@@ -17,7 +17,7 @@ const Footer = () => {
                 <Contact />
                 <SiteMap />
             </div>
-            <iframe 
+            {/* <iframe 
                 src="https://open.spotify.com/embed/playlist/6a6WHsODpZRCD4lUwyYVdN" 
                 title='AvantGov HQ Playlist'
                 width="100%" 
@@ -26,7 +26,7 @@ const Footer = () => {
                 allowtransparency="true" 
                 allow="encrypted-media"
                 className='Footer__spotify'>
-            </iframe>
+            </iframe> */}
         </div>
     )
 };
