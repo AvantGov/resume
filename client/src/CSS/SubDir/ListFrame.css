@@ -1,7 +1,7 @@
 .ListFrame {
     height: 100%;
     width: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 20%;
     background: -moz-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
     background: -webkit-linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
     background: linear-gradient(306deg, rgba(255,255,255,0.00043767507002800965) 0%, rgba(38,60,109,0.938813025210084) 100%);
@@ -14,4 +14,11 @@
     color: #ffffff;
     margin: 1% 0 2% 1%;
     text-decoration: underline;
+}
+
+.ListFrame__return {
+    border: 2px solid red;
+    padding: 3% 0 3% 0;
+    height: 100%;
+    width: 100%;
 }

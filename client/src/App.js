@@ -18,8 +18,10 @@ import Popup from './Components/framework/popup'
 
   // * /skills
   import ListFrame from "./Components/SubDir/ListFrame";
+  import LF_return from "./Components/SubDir/LF_return";
 
-  // * /skills/{item} ??
+// * scroll to top 
+import ScrollToTop from './Components/framework/ScrollToTop';
 
 
 // * CSS 
@@ -30,6 +32,7 @@ function App() {
 
   return (
     <div className="App">  
+      <ScrollToTop />
       <Route exact path='/'>
         <Header />
         <SkillsList />
@@ -37,6 +40,7 @@ function App() {
       </Route>
       <Route path="/skill">
         <ListFrame />
+        <LF_return />
       </Route>
       <Route path="/">
         <Footer />

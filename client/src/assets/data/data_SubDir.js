@@ -13,7 +13,7 @@ export const projects = {
             title: 'Free From',
             desc: 'marketing page for domestic abuse victim network',
             URL: 'https://www.behance.net/gallery/93422201/FreeFromorg-Marketing-Page-Lambda-School-Build-Week',
-            photo: "/photo_subdir/AC.png",
+            photo: "/photo_subdir/FreeFrom.jpg",
             year: "2020"
         },
         {
@@ -40,15 +40,23 @@ export const projects = {
             title: 'VISA & Cardinal Commerce Reporting Dashboard',
             desc: 'analytics dashboard for cross-team coordination.',
             URL: 'https://www.behance.net/gallery/84709585/CardinalCommerce-Reporting-Dashboard',
-            photo: "",
+            photo: "/photo_subdir/cardinal.png",
             year: "2019"
         },
         {
             key: 'Des003',
             title: 'Idea Paint Enhanced Brand Content',
             desc: 'design & implementation of amazon seller platform marketing.',
+            URL: 'https://www.behance.net/gallery/65202525/Joyd-Parker-EP-Release-Poster',
+            photo: "/photo_subdir/IDP.png",
+            year: "2018"
+        },
+        {
+            key: 'Des004',
+            title: 'Akron DIY Promo Poster',
+            desc: 'design & implementation of amazon seller platform marketing.',
             URL: 'https://www.behance.net/gallery/74725763/Idea-Paint-Amazon-EBC-Brand-Store',
-            photo: "",
+            photo: "/photo_subdir/AKRON.png",
             year: "2018"
         }
     ],
@@ -67,7 +75,7 @@ export const projects = {
             title: 'Wedding Series: Allison & Christine',
             desc: 'summer wedding captured while working for David Harris Photography.',
             URL: 'https://www.behance.net/gallery/130341301/Wedding-Series-Allison-Christine',
-            photo: "",
+            photo: "/photo_subdir/AC_WED.jpg",
             year: "2018"
         },
         {
@@ -75,27 +83,35 @@ export const projects = {
             title: 'Joyd Parker Promotional Video',
             desc: 'social-media oriented video for teasing new content.',
             URL: 'https://www.behance.net/gallery/76662317/Promotional-Video-Joyd-Parker-Winter-2019',
-            photo: "",
+            photo: "/photo_subdir/JP.jpg",
             year: "2019"
-        }
+        },
+        // {
+        //     key: 'Pho004',
+        //     title: 'Wedding Series: Adam + Violetta',
+        //     desc: 'summer wedding captured while working for David Harris Photography.',
+        //     URL: 'https://www.behance.net/gallery/130283263/Wedding-Series-Adam-Violeta',
+        //     photo: "/photo_subdir/AV_WED.jpg",
+        //     year: "2019"
+        // }
     ],
     
     "sound": [
         {
             key: 'Sou001',
             title: 'History Kit',
-            desc: 'moniker for electronic music produced by AC. described as "bright sound".',
+            desc: 'moniker for electronic music produced by AC.',
             URL: 'https://twitter.com/MalwareForFree',
-            photo: "",
-            year: "2018"
+            photo: "/photo_subdir/HK_ALBUM.jpg",
+            year: "2020-current"
         },        
         {
             key: 'Sou002',
             title: 'Joyd Parker',
             desc: 'now-defunct shoegaze from the midwest.',
             URL: 'https://open.spotify.com/artist/19NBLRsTgUFMdxfLcYtdfQ?si=Hf0PI7ljRrKp6frOncnkjw',
-            photo: "",
-            year: "2018"
+            photo: "/photo_subdir/JP_BAND.jpeg",
+            year: "2018-2020"
         },
     ]
 }

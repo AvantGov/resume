@@ -1,6 +1,7 @@
 .Photo {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: left;
     justify-content: space-around;
 }

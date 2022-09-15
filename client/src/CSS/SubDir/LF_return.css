@@ -1,0 +1,24 @@
+.LF_return {
+    padding: 3% 0 3% 0;
+    height: 100%;
+    width: 100%;
+    
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    opacity: 55%;
+    background-color: #e33d26;
+}
+
+.LF_return:hover {
+    opacity: 80%;
+    background-color: #263c6d;
+}
+
+.LF_return:hover > a {
+    font-weight: 600;
+    text-decoration: underline;
+}

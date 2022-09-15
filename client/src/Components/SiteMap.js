@@ -12,16 +12,21 @@ const SiteMap = () => {
             <h1 className='SiteFooter__header'>Site Nav</h1>
             <ul className='SiteFooter__unlist'>
                 <Link to="/" className='SiteFooter__Link'>
-                    <li className='unlist__item'>Welcome Screen</li>
+                    <li className='unlist__item'>Home</li>
+                </Link>
+                <Link to="/skill/development" className='SiteFooter__Link'>
+                    <li className='unlist__item'>Development</li>
+                </Link>
+                <Link to="/skill/design" className='SiteFooter__Link'>
+                    <li className='unlist__item'>Design</li>
+                </Link>
+                <Link to="/skill/photo" className='SiteFooter__Link'>
+                    <li className='unlist__item'>Photo</li>
+                </Link>
+                <Link to="/skill/sound" className='SiteFooter__Link'>
+                    <li className='unlist__item'>Sound</li>
                 </Link>
                 
-                <Link to="/about/visa" className='SiteFooter__Link'>
-                    <li className='unlist__item'>VISA Employment Info.</li>
-                </Link>
-                
-                <Link to="/about/epic" className='SiteFooter__Link'>
-                    <li className='unlist__item'>Epic Employment Info.</li>
-                </Link>
             </ul> 
         </div>
     )

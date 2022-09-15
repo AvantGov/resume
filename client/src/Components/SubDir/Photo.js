@@ -14,7 +14,7 @@ const Photo = () => {
         <div className="Photo">
             {photo.map((item) => {
                 return(
-                    <a className="cardlink" target="_blank" rel="nopenner noreferrer" href={item.URL} key={item.key}>
+                    <a className="cardlink" target="_blank" rel="nopenner noreferrer" href={item.URL} key={item.key} onClick={() => {window.scrollTo({top:0,behavior:'smooth'})}}>
                         <div className="card">
                             <img src={item.photo} className="card__photo" id={`photo_${item.key}`} />
                             <h2 className="card__title">{item.title}</h2>

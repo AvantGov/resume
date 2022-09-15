@@ -29,9 +29,10 @@
   .iconContainer__img {
     height: 90%;
     width: 90%;
-    background-image: url("../../assets/alex.jpeg");
+    background-image: url("../../assets/me.jpg");
     background-position: center;
     border-radius: 100px;
+    background-size: cover;
     /* opacity: 90%; */
   }
   
