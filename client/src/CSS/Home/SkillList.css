@@ -26,7 +26,6 @@
 
 .SkillList__link:hover {
     background-color: #e33d26;
-    opacity: 90%;
     text-decoration: underline;
 }
 
