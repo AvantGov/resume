@@ -20,7 +20,7 @@ export const projects = {
             key: 'Dev003',
             title: 'History Kit Visualizer (WIP)',
             desc: 'in-browser, interactive visualizer for deeper engagement with music',
-            URL: 'https://newclub-dosssi0o6-avantgov.vercel.app/',
+            URL: 'https://newclub.vercel.app/',
             photo: "/photo_subdir/HK_vis.png",
             year: "2022"
         }
