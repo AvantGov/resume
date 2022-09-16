@@ -24,3 +24,12 @@
   .Trademark__text_mobile {
     display: none;
   }
+
+  @media only screen and (max-width: 700px) {
+    .Trademark__text {
+      display: none;
+    }
+    .Trademark__text_mobile {
+      display: block;
+    }
+  }

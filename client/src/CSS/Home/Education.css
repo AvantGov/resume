@@ -198,10 +198,22 @@
         font-size: 1.2rem;
     }
     .minorFrame__minor {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .Edu__header {
         font-size: 3.5rem;
+    }
+    .minorFrame__minorDesc {
+        font-size: 1.2rem;
+    }
+    .descFrame__desc {
+        font-size: 1.2rem;
+    }
+    .certContainer__desc {
+        font-size: 1.2rem;
+    }
+    .descFrame__progDesc {
+        font-size: 1.2rem;
     }
 }
 

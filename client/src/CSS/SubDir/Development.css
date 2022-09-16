@@ -88,5 +88,9 @@
     }
     .card__title {
         width: 90%;
+        font-size: 2rem;
+    }
+    .card__desc {
+        font-size: 1.2rem;
     }
 }
